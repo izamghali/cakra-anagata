@@ -1,0 +1,68 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    /* shades */
+    --light-accent: #76D6BB;
+    --main-accent: #70CAB1;
+    --dark-accent: #4C8A78;
+    --darker-accent: #294A41;
+
+    /* split complementary */
+    --light-complementary-1: #C9798C;
+    --dark-complementary-1: #7D515B;
+    
+    --light-complementary-2: #C99965; 
+    --dark-complementary-2: #7D5C38;
+
+    scroll-behavior: smooth;
+
+    /* color: D9D9D9; */
+}
+
+
+.bg-light-accent {
+    background-color: var(--light-accent);
+}
+
+.navbar {
+    max-height: 5em;
+    padding-inline: 10em;
+    /* border: solid red; */
+    /* min-height: 5em; */
+    /* padding-inline: 8.4375em; */
+}
+
+.brand-pic {
+    /* border: solid black; */
+    max-width: 4em;
+}
+
+.carousel-item {
+    max-height: 33em;
+}
+
+
+.greeting-col {
+    height: 14em;
+}
+
+.company-values-row {
+    background-color: var(--dark-accent);
+    /* min-height: 20em; */
+}
+
+.about-company {
+    /* padding-block: 2em; */
+}
+
+.container-fluid {
+    /* height: 1000vh; */
+}
+
+.footer-section {
+    background-color: var(--darker-accent);
+}
+
