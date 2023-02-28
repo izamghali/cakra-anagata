@@ -22,7 +22,7 @@ html {
 }
 
 /* padding-inline: 10em */
-.navbar, .about-company-row, .company-values-row, .team-row, .footer-col {
+.navbar, .about-company-col, .company-values-row, .team-row, .footer-col {
     padding-inline: 10em;
 }
 
@@ -65,16 +65,16 @@ html {
 /*  */
 }
 
-.card {
+.team-card {
     border-radius: 20px;
 }
 
 /* footer */
-.footer-col {
+.footer-section {
     background-color: var(--darker-accent);
 }
 
-.btn-whatsapp {
+.button-whatsapp {
     color: #25D366;
 }
 
