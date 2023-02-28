@@ -21,10 +21,8 @@ html {
     scroll-behavior: smooth;
 }
 
-/* padding-inline: 10em */
-.navbar, .about-company-col, .company-values-row, .team-row, .footer-col {
-    padding-inline: 10em;
-}
+
+/* @media only screen only */
 
 
 .bg-light-accent {
@@ -59,7 +57,18 @@ html {
 /* company values */
 .company-values-row {
     background-color: var(--dark-accent);
+    
 }
+
+.company-values-col {
+    
+}
+
+/* why us */
+.why-us-row {
+    /* background-color: ; */
+}
+
 
 .team-row {
 /*  */
@@ -78,6 +87,9 @@ html {
     color: #25D366;
 }
 
-/* @media only screen and (max-width: 425px) {
-    
-} */
+@media only screen and (min-width: 1272px) {
+    /* padding-inline: 10em */
+    /* .navbar, .about-company-col, .company-values-row, .why-us-row, .team-row, .footer-col {
+        padding-inline: 10em;
+    } */
+}
