@@ -31,8 +31,7 @@ html {
 
 .navbar {
     max-height: 5em;
-    /* border: solid red; */
-    /* min-height: 5em; */
+    padding-inline: 10em;
 }
 
 .brand-pic {
