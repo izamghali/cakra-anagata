@@ -59,8 +59,22 @@ html {
     
 }
 
-.company-values-col {
-    
+/* partner */
+.partners-card-row1 {
+    /* border: solid red; */
+}
+
+.partners-card {
+    /* border: solid red; */
+    height: auto;
+    width: auto;
+    border: none;
+
+}
+
+.partners-card-img {
+    height: auto;
+    max-width: 10em;
 }
 
 /* why us */
