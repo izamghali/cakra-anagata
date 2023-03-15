@@ -95,10 +95,6 @@ html {
 }
 
 /* team */
-.card-image-top-custom {
-    /* border: solid red; */
-}
-
 .team-card-img-box-1, .team-card-img-box-2, .team-card-img-box-3 {
     height: 20em;
     background-repeat: no-repeat;
