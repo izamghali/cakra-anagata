@@ -10,6 +10,7 @@ html {
     --dark-accent: #4C8A78;
     --darker-accent: #294A41;
     --gray-color: #D9D9D9;
+    --gray-color-2: #f7f7f7;
 
     /* split complementary */
     --light-complementary-1: #C9798C;
@@ -19,6 +20,10 @@ html {
     --dark-complementary-2: #7D5C38;
 
     scroll-behavior: smooth;
+}
+
+body {
+    /* overflow-x: hidden; */
 }
 
 /* custom bg color */
@@ -34,9 +39,9 @@ html {
     background-color: var(--gray-color);
 }
 
-.navbar {
-    max-height: 5em;
-    padding-inline: 10em;
+.main-navbar {
+    /* max-height: 5em;
+    padding-inline: 10em; */
 }
 
 .brand-pic {
@@ -55,7 +60,8 @@ html {
 }
 
 /* about company */
-.about-company-row {
+.about-row {
+    background-color: var(--gray-color-2);
 }
 
 /* company values */
@@ -67,15 +73,85 @@ html {
     /* border: solid red; */
 }
 
+.main-value-card {
+    /* min-height: 13rem; */
+    /* max-width: auto; */
+}
+
+.value-cards-col {
+    display: flex;
+    flex-direction: row;
+}
+
 .value-card-img {
     width: 3em;
     height: auto;
 }
 
 /* partner */
-.partners-card-row1 {
-    /* border: solid red; */
+.partners-row {
+    overflow: hidden;
+    min-height: auto;
+    max-height: 65vh;
 }
+
+.partners-card-row1 {
+    /* border-block: solid black; */
+}
+
+.partners-card-row11 {
+    /* border-block: solid black; */
+    top: -19.7%;
+}
+
+.partners-card-row2 {
+    /* border: solid red; */
+    /* border-block: solid black; */
+    top: -18%;
+}
+
+.partners-card-row22 {
+    /* border: solid green; */
+    /* border-block: solid black; */
+    top: -43.45%;
+}
+
+@keyframes lefty-1 {
+    0% {left: 0;}
+    100% {left: -100%;}
+}
+
+@keyframes lefty-2 {
+    0% {left: 100%;}
+    100% {left: 0;}
+}
+
+@keyframes righty-1 {
+    0% {right: 0;}
+    100% {right: -100%;}
+}
+
+@keyframes righty-2 {
+    0% {right: 100%;}
+    100% {right: 0%;}
+}
+
+.autoplay-scroll-lefty-1 {
+    animation: lefty-1 10s infinite linear;
+}
+
+.autoplay-scroll-lefty-2 {
+    animation: lefty-2 10s infinite linear;
+}
+
+.autoplay-scroll-righty-1 {
+    animation: righty-1 10s infinite linear;
+}
+
+.autoplay-scroll-righty-2 {
+    animation: righty-2 10s infinite linear;
+}
+
 
 .partners-card {
     /* border: solid red; */
