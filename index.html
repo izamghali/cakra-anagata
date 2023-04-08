@@ -34,7 +34,7 @@
           </li>
 
           <li class="nav-item ml-5">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#greeting">About</a>
           </li>
 
           <!-- dropdown menu -->
@@ -55,7 +55,7 @@
           </li>
 
           <li class="nav-item ml-5">
-              <a class="nav-link" href="#">Partners</a>
+              <a class="nav-link" href="#partners">Partners</a>
           </li>
 
           <li class="nav-item ml-5">
@@ -111,7 +111,7 @@
     <div class="container-fluid overflow-y-scroll" data-bs-spy="scroll" data-bs-target="#mainNavbar" tabindex="0">
       
       <!-- greeting -->
-      <div class="row">
+      <div class="row" id="greeting">
         <div class="col bg-gray-subtle greeting-col py-5">
           <p class="text-center">Welcome to</p>
           <h2 class="text-center">CV. Cakra Anagata Gemilang</h2>
@@ -206,7 +206,7 @@
       </div>
 
       <!-- company values -->
-      <div class="row company-values-row">
+      <div class="row company-values-row bg-dark">
         <div class="col py-5 px-auto">
 
           <!-- values heading -->
@@ -261,7 +261,7 @@
       </div>
 
       <!-- partners -->
-      <div class="row partners-row bg-white">
+      <div class="row partners-row bg-white" id="partners">
         <div class="col py-5">
 
           <!-- partners heading -->
@@ -525,7 +525,7 @@
                       <h5 class="card-title">Utep Kamal S</h5>
                       <h6 class="card-title">Commissioner</h4>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <a href="#" class="btn btn-primary team-btn text-accent">Go somewhere</a>
                     </div>
                   </div>
                 </div>
@@ -538,7 +538,7 @@
                       <h5 class="card-title">Aryo Bimo</h5>
                       <h6 class="card-title">Director</h6>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <a href="#" class="btn btn-primary team-btn text-accent">Go somewhere</a>
                     </div>
                   </div>
                 </div>
@@ -551,7 +551,7 @@
                       <h5 class="card-title">Helmy Fauzi</h5>
                       <h6 class="card-title">First Director</h6>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <a href="#" class="btn btn-primary team-btn text-accent">Go somewhere</a>
                     </div>
                   </div>
                 </div>
@@ -568,11 +568,51 @@
       <div class="row pt-4 pb-1 footer-section">
         <div class="col footer-col">
 
-          <a class="btn button-whatsapp bg-white" href="https://wa.me/6289541418688" role="button">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-              <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
-            </svg>  Contact Us
-          </a>
+          <!-- contact -->
+          <div class="col">
+
+            <h4>Contact</h4>
+
+            <!-- address -->
+            <div class="row">
+              <div class="col">
+                <p>Jl. Jatisampay No. 136, Majalengka, West Java, Indonesia</p>
+              </div>
+            </div>
+
+            <!-- email -->
+            <div class="row">
+              <div class="col">
+
+              </div>
+            </div>
+
+            <!-- whatsapp -->
+            <div class="row">
+              <div class="">
+                <a class="btn button-whatsapp bg-white" href="https://wa.me/6289541418688" role="button">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                  </svg>  Contact Us
+                </a>
+              </div>
+            </div>
+
+
+          </div>
+
+          <!-- about -->
+          <div class="col">
+            <h4>About Us</h4>
+            <p>We are CV. Cakra Anagata Gemilang is a company that can provide for all your needs to help grow your company. We are sure of our people's quality and experiences that can make huge benefits for our business partners worldwide.
+
+              As our motto to be a number one provider, we are highly determined to work with huge professionalism. Hence, we always try our best to satisfy our business partners.</p>
+          </div>
+
+          <!-- social media -->
+          <div class="col">
+
+          </div>
 
           <p class="text-center text-white">Copyright © 2023 CV CAKRA ANAGATA GEMILANG</p>
 
