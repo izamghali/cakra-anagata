@@ -56,7 +56,7 @@ body {
 
 /* greeting */
 .greeting-col {
-    height: 14em;
+    /* height: 14em; */
 }
 
 /* about company */
@@ -209,9 +209,9 @@ body {
     color: #25D366;
 }
 
-@media only screen and (min-width: 1272px) {
+@media only screen and (min-width: 1440px) {
     /* padding-inline: 10em */
-    /* .navbar, .about-company-col, .company-values-row, .why-us-row, .team-row, .footer-col {
-        padding-inline: 10em;
-    } */
+    .navbar, .about-company-col, .company-values-row, .why-us-row, .team-row, .footer-col {
+        /* padding-inline: 10em; */
+    }
 }
