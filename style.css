@@ -59,14 +59,13 @@ body {
 }
 
 /* navbar */
-.main-navbar {
-    /* max-height: 5em;
-    padding-inline: 10em; */
+#mainNavbar {
+    transition-duration: 250ms;
 }
 
 .brand-pic {
-    /* border: solid black; */
-    max-width: 4em;
+    transition-duration: 250ms;
+    width: 4em;
 }
 
 /* carousel */
