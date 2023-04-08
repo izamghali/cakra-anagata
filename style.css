@@ -54,6 +54,10 @@ body {
     /* background-color: var(--dark-general); */
 }
 
+.text-hover-accent:hover {
+    color: var(--brand-color) !important;
+}
+
 /* navbar */
 .main-navbar {
     /* max-height: 5em;
