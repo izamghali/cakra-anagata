@@ -55,6 +55,11 @@ html {
     transition-duration: 250ms;
 }
 
+.navbar-drop-down-active:active {
+    background-color: var(--brand-color);
+    color: #fff !important;
+}
+
 .brand-pic {
     transition-duration: 250ms;
     width: 4em;
