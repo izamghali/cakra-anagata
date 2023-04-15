@@ -273,3 +273,17 @@ html {
         /* padding-inline: 10em; */
     }
 }
+
+@media only screen and (max-width: 425px) {
+    .product-card {
+        height: auto !important;
+    }
+
+    .team-card-img-box-1 {
+        background-position: 0% 20%;
+    }
+
+    .team-card-img-box-3 {
+        background-size: 200%;
+    }
+}
