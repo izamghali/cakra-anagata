@@ -119,6 +119,22 @@ html {
     height: 23em;
 }
 
+.zoom-wrapper {
+    overflow: hidden;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.zoom-wrapper img {
+    object-fit: cover;
+    height: 100%;
+    transition: 300ms;   
+}
+
+.zoom-wrapper img:hover {
+    transform: scale(1.2);
+}
+
 
 /* partner */
 .partners-row {
