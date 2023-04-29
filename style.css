@@ -36,7 +36,7 @@ html {
 
 .text-accent {
     /* color: var(--light-accent); */
-    color: var(--brand-color);
+    color: var(--brand-color) !important;
 }
 
 /* custom bg color */
@@ -100,8 +100,7 @@ html {
 }
 
 .main-value-card {
-    /* min-height: 13rem; */
-    /* max-width: auto; */
+
 }
 
 .value-cards-col {
@@ -114,11 +113,17 @@ html {
     height: auto;
 }
 
-.value-button {
-
+.read-more-button {
+    /* color: blue !important; */
 }
 
-body {
+.read-more-button:hover {
+    cursor: pointer;
+    text-decoration: underline !important;
+}
+
+#valueTextIntegrity:active {
+    transition: 250ms;
 }
 
 /* product */
@@ -262,7 +267,7 @@ body {
 .team-btn:hover {
     background-color: var(--brand-color);
     border: solid var(--brand-color);
-    color: #fff;
+    color: #fff !important;
 }
 
 /* footer */
