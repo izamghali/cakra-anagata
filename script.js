@@ -84,4 +84,49 @@ function hideText3() {
 readMore3.onclick = showText3;
 readLess3.onclick = hideText3;
 
+// languages
 
+// language options
+let buttonBahasa = document.getElementById('optionBahasa');
+let buttonEnglish = document.getElementById('optionEnglish');
+let buttonSpanish = document.getElementById('optionSpanish');
+let buttonChinese = document.getElementById('optionChinese');
+let buttonFrench = document.getElementById('optionFrench');
+
+// elements to translate
+let navbarHome = document.getElementById('navbarListHome');
+let navbarAbout = document.getElementById('navbarListAbout');
+let navbarProduct = document.getElementById('navbarDropdown');
+let navbarTeam = document.getElementById('navbarListTeam');
+let navbarPartner = document.getElementById('navbarListPartners');
+let navbarLanguage = document.getElementById('languageDropdown');
+let navbarContact = document.getElementById('navbarListContact');
+
+// english 
+function defaultLanguage() {
+  navbarHome.innerHTML = 'Home';
+  navbarAbout.innerHTML = 'About';
+  navbarProduct.innerHTML = 'Products';
+  navbarTeam.innerHTML = 'Team';
+  navbarPartner.innerHTML = 'Partner';
+  navbarLanguage.innerHTML = 'Language';
+  navbarContact.innerHTML = 'Contact Us';
+}
+
+// bahasa
+function translateBahasa() {
+  navbarHome.innerHTML = 'Beranda';
+  navbarAbout.innerHTML = 'Tentang';
+  navbarProduct.innerHTML = 'Produk';
+  navbarTeam.innerHTML = 'Tim';
+  navbarPartner.innerHTML = 'Partner';
+  navbarLanguage.innerHTML = 'Bahasa';
+  navbarContact.innerHTML = 'Kontak Kami';
+  
+}
+
+buttonEnglish.onclick = defaultLanguage;
+buttonBahasa.onclick = translateBahasa;
+buttonSpanish.onclick = translateSpanish;
+buttonChinese.onclick = translateChinese;
+buttonFrench.onclick = translateFrench;

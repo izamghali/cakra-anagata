@@ -26,24 +26,24 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       
-
+      <!-- navbar list -->
       <div class="collapse navbar-collapse" id="toggler">
         <ul class="navbar-nav ml-auto"> <!-- mr-auto: margin auto -->
           
           <!-- home -->
           <li class="nav-item ml-5">
-              <a class="nav-link text-hover-accent" href="#">Home</a>
+              <a class="nav-link text-hover-accent" href="#" id="navbarListHome">Home</a>
           </li>
 
           <!-- about -->
           <li class="nav-item ml-5">
-              <a class="nav-link text-hover-accent" href="#about">About</a>
+              <a class="nav-link text-hover-accent" href="#about" id="navbarListAbout">About</a>
           </li>
 
           <!-- product dropdown -->
           <li class="nav-item ml-5 dropdown">
             <a class="nav-link dropdown-toggle text-hover-accent" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Product
+              Products
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item text-hover-accent navbar-drop-down-active" href="#products">Agricultural products</a>
@@ -54,12 +54,12 @@
 
           <!-- team -->
           <li class="nav-item ml-5">
-              <a class="text-hover-accent nav-link" href="#team">Team</a>
+              <a class="text-hover-accent nav-link" href="#team" id="navbarListTeam">Team</a>
           </li>
 
           <!-- partners -->
           <li class="nav-item ml-5">
-              <a class="nav-link text-hover-accent" href="#partners">Partners</a>
+              <a class="nav-link text-hover-accent" href="#partners" id="navbarListPartners">Partners</a>
           </li>
 
           <!-- language -->
@@ -68,17 +68,17 @@
               Language
             </a>
             <div class="dropdown-menu" aria-labelledby="languageDropdown">
-              <a class="dropdown-item text-hover-accent navbar-drop-down-active" href="#">English</a>
-              <a class="dropdown-item text-hover-accent navbar-drop-down-active" href="#">Bahasa Indonesia</a>
-              <a class="dropdown-item text-hover-accent navbar-drop-down-active" href="#">Spanish</a>
-              <a class="dropdown-item text-hover-accent navbar-drop-down-active" href="#">Chinese</a>
-              <a class="dropdown-item text-hover-accent navbar-drop-down-active" href="#">French</a>
+              <a class="dropdown-item text-hover-accent navbar-drop-down-active" id="optionEnglish">English</a>
+              <a class="dropdown-item text-hover-accent navbar-drop-down-active" id="optionBahasa">Bahasa Indonesia</a>
+              <a class="dropdown-item text-hover-accent navbar-drop-down-active" id="optionSpanish">Spanish</a>
+              <a class="dropdown-item text-hover-accent navbar-drop-down-active" id="optionChinese">Chinese</a>
+              <a class="dropdown-item text-hover-accent navbar-drop-down-active" id="optionFrench">French</a>
             </div>
           </li>
 
           <!-- contact -->
           <li class="nav-item ml-5">
-              <a class="nav-link text-hover-accent" href="#footer">Contact Us</a>
+              <a class="nav-link text-hover-accent" href="#footer" id="navbarListContact">Contact Us</a>
           </li>
           
         </ul>
@@ -418,7 +418,7 @@
               <!-- manufacture cards -->
               <div class="row">
 
-                <!-- manufacture card column 1 -->
+                <!-- manufacture card row 1 -->
                 <div class="col d-flex justify-content-around">
 
                   <!-- pillows, bolsters, etc -->
@@ -432,6 +432,7 @@
                     </div>
                   </div>
     
+                  <!-- frozen chicken -->
                   <div class="card product-card" style="width: 18rem;">
                     <div class="zoom-wrapper">
                       <img src="./assets/products/manufacture/frozen-chicken.jpg" loading="lazy" class="card-img-top" alt="...">
@@ -443,7 +444,7 @@
                   </div>
                 </div>
   
-                <!-- manufacture card column 2 -->
+                <!-- manufacture card row 2 -->
                 <div class="col d-flex justify-content-around mt-4">
 
                   <!-- scented candles -->
@@ -468,6 +469,62 @@
                     </div>
                   </div>
                 </div>
+
+                <!-- manufacture card row 3 -->
+                <div class="col d-flex justify-content-around mt-4">
+
+                  <!-- skincare -->
+                  <div class="card product-card" style="width: 18rem;">
+                    <div class="zoom-wrapper">
+                      <img src="./assets/products/manufacture/scented-candle.jpg" loading="lazy" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5>Scented Candles</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+    
+                  <!-- ceramics -->
+                  <div class="card product-card" style="width: 18rem;">
+                    <div class="zoom-wrapper">
+                      <img src="./assets/products/manufacture/sawdust.jpg" loading="lazy" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5>Sawdust and Shisha Briquette</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <!-- manufacture card row 4 -->
+                <div class="col d-flex justify-content-around mt-4">
+
+                  <!-- skincare -->
+                  <div class="card product-card" style="width: 18rem;">
+                    <div class="zoom-wrapper">
+                      <img src="./assets/products/manufacture/scented-candle.jpg" loading="lazy" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5>Scented Candles</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+    
+                  <!-- ceramics -->
+                  <div class="card product-card" style="width: 18rem;">
+                    <div class="zoom-wrapper">
+                      <img src="./assets/products/manufacture/sawdust.jpg" loading="lazy" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5>Sawdust and Shisha Briquette</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+
+                </div>
+
+
               </div>
               
             </div>
@@ -895,6 +952,7 @@
         </div>
       </div>
       
+      <!-- copyright -->
       <div class="row">
         <div class="col bg-dark">
           <p class="text-center text-white">Copyright © 2023 CV CAKRA ANAGATA GEMILANG</p>

@@ -54,6 +54,7 @@ html {
 
 .text-hover-accent:hover {
     color: var(--brand-color) !important;
+    cursor: pointer;
 }
 
 /* navbar */
