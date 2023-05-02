@@ -39,6 +39,15 @@ html {
     color: var(--brand-color) !important;
 }
 
+.accent-pointer {
+    color: var(--brand-color) !important;
+}
+
+.accent-pointer:hover {
+    cursor: pointer;
+    text-decoration: underline !important;
+}
+
 /* custom bg color */
 .bg-light-accent {
     background-color: var(--light-accent);
@@ -101,7 +110,10 @@ html {
 }
 
 .main-value-card {
+}
 
+#hello {
+    border: solid red;
 }
 
 .value-cards-col {
@@ -146,6 +158,10 @@ html {
 
 .zoom-wrapper img:hover {
     transform: scale(1.2);
+}
+
+#honeyDescField {
+    
 }
 
 
