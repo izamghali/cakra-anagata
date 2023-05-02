@@ -41,6 +41,31 @@ function hideText1() {
   readLess1.style.display = 'none';
 }
 
+// jQuery
+$(document).ready(() => {
+  
+  // value read more & read less button
+  // const $readMoreButtonValue = 
+
+
+  // product read more & read less button
+  const $readMoreButtonProduct = $('.read-more-button');
+
+  $readMoreButtonProduct.on("click", (event) => {
+    $(event.currentTarget).prev().find("span").slideDown(250, "linear");
+    $(event.currentTarget).hide();
+    $(event.currentTarget).next().show();
+  })
+  
+  $readMoreButtonProduct.next().on("click", (event) => {
+    $(event.currentTarget).prev().prev().find("span").slideUp(250, "linear")
+    $(event.currentTarget).hide();
+    $(event.currentTarget).prev().show();
+  })
+
+});
+
+
 readMore1.onclick = showText1;
 readLess1.onclick = hideText1;
 
@@ -132,8 +157,8 @@ buttonChinese.onclick = translateChinese;
 buttonFrench.onclick = translateFrench;
 
 // product read more button
-let agricultureDescriptionsMore = ['Indonesia is known for its diverse flora and fauna, which produces a wide range of natural wild honey. It is harvested from forests and other natural habitats, and are known for their unique flavors and health benefits. Indonesian natural wild honeys include varieties such as honey from the Riau rainforest, Java jungle honey, and Tualang honey from North Sumatra.']
-let agricultureDescriptionsLess = ['Indonesia is known for its diverse flora and fauna, which produces a wide range of natural wild honey.']
+let agricultureDescriptionsMore = ['Indonesia is known for its diverse flora and fauna, which produces a wide range of natural wild honey. It is harvested from forests and other natural habitats, and are known for their unique flavors and health benefits. Indonesian natural wild honeys include varieties such as honey from the Riau rainforest, Java jungle honey, and Tualang honey from North Sumatra.'];
+let agricultureDescriptionsLess = ['Indonesia is known for its diverse flora and fauna, which produces a wide range of natural wild honey.'];
 
 let honeyDescField = document.getElementById('honeyDescField');
 
@@ -141,5 +166,7 @@ let readMoreHoney = document.getElementById('readMoreHoney');
 let readLessHoney = document.getElementById('readLessHoney');
 
 function showMore(event) {
-  EventTarget.innerHTML = agricultureDescriptionsMore[0];
+  honeyDescField.innerHTML = agricultureDescriptionsMore[0];
 }
+
+readMoreHoney.onclick = showMore;
