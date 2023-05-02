@@ -126,15 +126,6 @@ html {
     height: auto;
 }
 
-.read-more-button {
-    /* color: blue !important; */
-}
-
-.read-more-button:hover {
-    cursor: pointer;
-    text-decoration: underline !important;
-}
-
 #valueTextIntegrity:active {
     transition: 250ms;
 }
@@ -158,10 +149,6 @@ html {
 
 .zoom-wrapper img:hover {
     transform: scale(1.2);
-}
-
-#honeyDescField {
-    
 }
 
 

@@ -44,11 +44,11 @@ function hideText1() {
 // jQuery
 $(document).ready(() => {
   
-  // value read more & read less button
+  // VALUE read more & read less button
   // const $readMoreButtonValue = 
 
 
-  // product read more & read less button
+  // PRODUCT read more & read less button
   const $readMoreButtonProduct = $('.read-more-button');
 
   $readMoreButtonProduct.on("click", (event) => {
