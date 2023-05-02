@@ -151,6 +151,16 @@ html {
     transform: scale(1.2);
 }
 
+#showMore {
+    background-color: #fff;
+    border: solid var(--gray-color);
+    border-radius: 100px;
+}
+
+#showMore:hover {
+    text-decoration: underline;
+}
+
 
 /* partner */
 .partners-row {
