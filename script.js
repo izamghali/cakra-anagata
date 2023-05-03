@@ -9,10 +9,6 @@ function scrollFunction() {
   }
 }
 
-// const displayWhatsApp = document.getElementById('')
-
-// const timeOut = setTimeout()
-
 window.onscroll = function() {scrollFunction()};
 
 // jQuery
@@ -66,6 +62,8 @@ function defaultLanguage() {
 
 // bahasa
 function translateBahasa() {
+
+  // navbar
   navbarHome.innerHTML = 'Beranda';
   navbarAbout.innerHTML = 'Tentang';
   navbarProduct.innerHTML = 'Produk';
@@ -73,6 +71,9 @@ function translateBahasa() {
   navbarPartner.innerHTML = 'Partner';
   navbarLanguage.innerHTML = 'Bahasa';
   navbarContact.innerHTML = 'Kontak Kami';
+
+  // about
+  
   
 }
 
