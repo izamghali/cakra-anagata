@@ -109,13 +109,6 @@ html {
     /* border: solid red; */
 }
 
-.main-value-card {
-}
-
-#hello {
-    border: solid red;
-}
-
 .value-cards-col {
     display: flex;
     flex-direction: row;
@@ -276,33 +269,34 @@ html {
 
 
 /* footer */
-.footer-section {
+#footer {
     background-color: var(--darker-accent);
 }
 
-.footer-button {
-    color: var(--light-general);
+/* cta */
+#ctaWhatsApp {
+    top: 80%;
+    left: 90%;
+    z-index: 1;
+    font-size: larger;
+    color: var(--brand-color);
+    background-color: #fff;
+    padding-inline: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+    border-radius: 20px;
+    border: solid var(--gray-color);
 }
 
-.footer-button:hover {
-    color: var(--brand-color) !important;
-    cursor: pointer;
-    text-decoration: underline !important;
+#ctaWhatsApp img {
+    width: 5rem;
 }
 
-.footer-social-media {
-    color: var(--dark-general);
-}
-
-.footer-social-media:hover {
-    color: var(--brand-color) !important;
-    cursor: pointer;
-}
 
 @media only screen and (min-width: 1440px) {
     /* padding-inline: 10em */
     .navbar, .about-company-col, .company-values-row, .why-us-row, .footer-col {
-        padding-inline: 10em;
+        /* padding-inline: 10em; */
     }
 }
 
