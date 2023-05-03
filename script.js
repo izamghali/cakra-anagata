@@ -73,8 +73,7 @@ function translateBahasa() {
   navbarContact.innerHTML = 'Kontak Kami';
 
   // about
-  
-  
+
 }
 
 buttonEnglish.onclick = defaultLanguage;
@@ -82,18 +81,3 @@ buttonBahasa.onclick = translateBahasa;
 buttonSpanish.onclick = translateSpanish;
 buttonChinese.onclick = translateChinese;
 buttonFrench.onclick = translateFrench;
-
-// product read more button
-let agricultureDescriptionsMore = ['Indonesia is known for its diverse flora and fauna, which produces a wide range of natural wild honey. It is harvested from forests and other natural habitats, and are known for their unique flavors and health benefits. Indonesian natural wild honeys include varieties such as honey from the Riau rainforest, Java jungle honey, and Tualang honey from North Sumatra.'];
-let agricultureDescriptionsLess = ['Indonesia is known for its diverse flora and fauna, which produces a wide range of natural wild honey.'];
-
-let honeyDescField = document.getElementById('honeyDescField');
-
-let readMoreHoney = document.getElementById('readMoreHoney');
-let readLessHoney = document.getElementById('readLessHoney');
-
-function showMore(event) {
-  honeyDescField.innerHTML = agricultureDescriptionsMore[0];
-}
-
-readMoreHoney.onclick = showMore;

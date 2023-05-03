@@ -289,6 +289,13 @@ html {
     transition: 300ms;
 }
 
+#ctaWhatsApp:hover {
+    border: solid var(--brand-color);
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--brand-color);
+}
+
 #ctaWhatsApp img {
     width: 5rem;
 }
