@@ -526,6 +526,257 @@ function translateSpanish() {
   Como nuestro lema para ser un proveedor número uno, estamos muy decididos a trabajar con gran profesionalismo. Por lo tanto, siempre hacemos todo lo posible para satisfacer a nuestros socios comerciales.'
 }
 
+// chinese
+function translateChinese() {
+  // navbar
+  navbarHome.innerHTML = '家';
+  navbarAbout.innerHTML = '关于';
+  navbarProduct.innerHTML = '产品';
+  navbarTeam.innerHTML = '团队';
+  navbarPartner.innerHTML = '伙伴';
+  navbarLanguage.innerHTML = '语言';
+  navbarContact.innerHTML = '联系我们';
+  navbarAgriPro.innerHTML = '农产品';
+  navbarManuPro.innerHTML = '制造产品';
+  
+  // about
+  ctaWhatsApp.innerHTML = '联系我们  <img src="./assets/logo/whatsapp-logo.png" alt="">';
+  welcomingCompany.innerHTML = '欢迎来到';
+  aboutMain.innerHTML = '简历。 Cakra Anagata Gemilang 是一家从事进出口和一般贸易的公司，位于西爪哇的 Majalengka, 在印度尼西亚和全球拥有庞大的商品供应商网络。<span style="display: none;" id="aboutMainMore"> 我公司作为进出口和一般贸易公司具有完整的许可证和合法性。 我们公司还全力支持并与其他公司合作，帮助农民、育种者、中小企业能够在全国和世界范围内销售他们的产品 CV。 在选择我们的供应商和经销商时，Cakra Anagata Gemilang 非常挑剔。 我们深深地坚持我们公司的核心价值观，即：诚信、质量、承诺和信任。</span>';
+  aboutVision.innerHTML = '成为全球领先的出口商和进口商，以我们对道德商业实践、卓越的客户服务以及以具有竞争力的价格交付高质量产品的承诺而闻名。';
+  aboutMission.innerHTML = '我们的使命是利用我们遍布全球的广泛供应商和合作伙伴网络，为我们的客户提供最好的服务和产品。\
+  <span style="display: none;" id="aboutMissionMore">\
+  我们努力通过按时并在预算范围内提供优质的产品和服务来超越客户的期望。 我们致力于以诚信、透明和社会责任的方式开展业务，同时不断改进我们的运营，以确保我们的利益相关者实现可持续增长。 我们的目标是成为客户、供应商和员工值得信赖的合作伙伴，在相互信任和尊重的基础上建立长期关系。\
+  </span>';
+  aboutVisionHeading.innerHTML = '想象';
+  aboutMissionHeading.innerHTML = '使命';
+  
+  // company values
+  valueHeading.innerHTML = '公司价值观';
+  valueIntegrityHeading.innerHTML = '正直';
+  valuePreciseHeading.innerHTML = '精确的';
+  valueAffectiveHeading.innerHTML = '情感的';
+  valueIntegrity.innerHTML = '以诚实、透明和符合道德规范的方式开展业务。\
+  <span style="display: none;">这包括如实说明产品规格、定价和交付时间表，以及遵守所有法律和法规要求。 它还意味着尊重和公平对待所有利益相关者，包括客户、供应商、员工和社区。 通过坚持高标准的诚信，公司可以在市场上建立信任并树立良好的声誉，这对于长期成功至关重要。</span>'
+  valuePrecise.innerHTML = '密切关注细节并确保业务各个方面的准确性。\
+  <span style="display: none;">这需要仔细规划、有效沟通以及使用先进的技术和系统来最大程度地减少错误和延迟。 通过精确，公司可以提高效率、降低成本并提高客户满意度，从而带来重复业务和推荐。</span>'
+  valueAffective.innerHTML = '积极主动地满足客户的需求和期望。这需要了解每个客户的独特需求，包括他们的文化、语言和物流偏好。 \
+  <span style="display: none;">它还意味着要灵活适应不断变化的市场条件和客户需求。 通过情感，公司可以与客户建立牢固的关系，从竞争对手中脱颖而出，并提高客户忠诚度和保留率。</span>';
+  
+  // products
+  // heading
+  productHeading.innerHTML = '我们提供什么';
+  productAgriHeading.innerHTML = '农产品';
+  productManuHeading.innerHTML = '制造产品'
+
+  // product cards
+  productHoneyHeading.innerHTML = '天然野生蜂蜜';
+  productHoney.innerHTML = '印度尼西亚以其多样化的动植物群而闻名，出产种类繁多的天然野生蜂蜜。\
+                          <span style="display: none;">它采自森林和其他自然栖息地，以其独特的风味和健康益处而闻名。 印度尼西亚的天然野生蜂蜜包括来自廖内雨林的蜂蜜、爪哇丛林蜂蜜和来自北苏门答腊的图朗蜂蜜等品种。</span>'
+
+  productPotatoHeading.innerHTML = '土豆';
+  productPotato.innerHTML = '印度尼西亚马铃薯以其高品质而闻名，在国内外都有很高的需求。\
+                          <span style="display: none;">它有各种土豆，包括大土豆和小土豆，用于各种菜肴，如炸薯条、土豆泥和薯片。</span>';
+
+  productCoffeeHeading.innerHTML = '罗布斯塔和阿拉比卡咖啡（淡芒贡咖啡）';
+  productCoffee.innerHTML = '印度尼西亚是世界上最大的咖啡生产国之一，以其优质的罗布斯塔咖啡豆和阿拉比卡咖啡豆而闻名。\
+                          <span style="display: none;">位于爪哇中部的淡芒贡是出产印度尼西亚一些最好的咖啡的地区。 淡芒贡咖啡具有独特的口感和香气，深受咖啡鉴赏家的追捧。</span>';
+
+  productCornHeading.innerHTML = '甜玉米';
+  productCorn.innerHTML = '印尼甜玉米是一种受欢迎的小吃和烹饪原料，以其甜美多汁的味道而闻名。\
+                          <span style="display: none;">它在该国许多地区种植，有新鲜和冷冻两种。 它是一种用途广泛的配料，可用于各种菜肴，如汤、沙拉和配菜。</span>';
+
+  productSpicesHeading.innerHTML = '香料';
+  productSpices.innerHTML = '印度尼西亚是香料之乡，盛产肉豆蔻、肉桂、丁香和姜黄等多种优质香料。\
+                          <span style="display: none;">它们以其独特的风味和香气而闻名，被用于许多国际美食中。 这些香料也广泛用于印尼传统菜肴，如仁当、沙爹和古来。</span>'
+
+  productFertilizerHeading = '肥料、分解剂和杀虫剂';
+  productFertilizer.innerHTML = '我们的化肥、杀虫剂和分解剂原产于印度尼西亚，已被发现可有效改善土壤肥力、控制害虫和提高作物产量。\
+                        <span style="display: none;">然而，它们的有效性取决于多种因素，农民需要将它们与良好的耕作方法结合使用才能取得最佳效果。</span>';
+
+  productPillowHeading.innerHTML = '枕头、抱枕、毛巾和其他纺织品';
+  productPillow.innerHTML = '印度尼西亚拥有蓬勃发展的纺织业，生产各种产品，如枕头、抱枕、毛巾和其他家用纺织品。\
+                          <span style="display: none;">这些产品以其高品质和精美设计而闻名，由棉、丝和亚麻等天然纤维制成。 印尼纺织品在国内外都很受欢迎。';
+
+  productChickenHeading.innerHTML = '清真冻鸡';
+  productChicken.innerHTML = '印度尼西亚是世界上最大的清真鸡肉生产国之一，并出口到全球许多国家。\
+                          <span style="display: none;">印尼清真冷冻鸡肉以其高品质和严格遵守清真标准而闻名。 这些鸡在自然环境中饲养，不含任何人工激素或抗生素。</span>';
+
+  productCandleHeading.innerHTML = '自制香薰蜡烛';
+  productCandle.innerHTML = '印度尼西亚香薰蜡烛采用大豆蜡和精油等天然材料手工制作而成。\
+                          <span style="display: none;">这些蜡烛有多种香味，如香草、薰衣草和柑橘，并以其持久的香味和精美的包装而闻名。 它们是适合任何场合的完美礼物或装饰品。</span>';
+
+  productSawdustHeading.innerHTML = '木屑和水烟煤球';
+  productSawdust.innerHTML = '印度尼西亚生产由椰子壳和木屑等天然材料制成的优质锯末和水烟煤球。\
+                          <span style="display: none;">这些煤球用于烧烤和烟熏食物，以其高热量输出和长燃烧时间而闻名。 它们是烧烤爱好者的热门选择，并出口到世界许多国家。</span>';
+
+  productCosmeticHeading.innerHTML = '化妆品和身体护理';
+  productCosmetic.innerHTML = '印度尼西亚有着在化妆品和身体护理产品中使用天然成分的丰富传统。\
+                          <span style="display: none;">许多印尼化妆品和身体护理产品均采用天然材料制成，例如椰子油、蜂蜜和米粉。 这些产品以其有效性而闻名，经常用于世界各地的水疗中心和沙龙。</span>';
+
+  productCeramicHeading.innerHTML = '陶瓷';
+  productCeramic.innerHTML = '印度尼西亚陶瓷以其独特的设计和精美的工艺而闻名。\
+  <span style="display: none;">它们由粘土等天然材料制成，有多种形状和尺寸可供选择。 印尼陶瓷在国内外都很受欢迎，经常被用作装饰品或盛装食物和饮料。</span>';
+
+  // partner
+  partnerHeading.innerHTML = '我们的伙伴';
+
+  // why us
+  whyHeading.innerHTML = '为什么是我们';
+  whyQualityHeading.innerHTML = '优质产品';
+  whyPricingHeading1.innerHTML = '有竞争力的价格';
+  whyPricingHeading2.innerHTML = '';
+  whyCsHeading1.innerHTML = '卓越的客户服务';
+  whyCsHeading2.innerHTML = '';
+  whyGlobalHeading.innerHTML = '全球范围';
+  whyQuality.innerHTML = '我们提供来自世界各地值得信赖的供应商的各种优质产品。\
+                      <span style="display: none;">我们的产品经过严格的质量控制措施，以确保它们符合最高的卓越标准，让我们的客户安心并放心购买。</span>'
+  whyPricing.innerHTML = '我们努力为客户提供最具竞争力的价格，同时不影响质量或服务。\
+                      <span style="display: none;">我们广泛的供应商和合作伙伴网络使我们能够谈判有利的条件，我们将这些条件传递给我们的客户，使他们能够节省成本并最大限度地提高盈利能力。</span>'
+  whyCs.innerHTML = '我们经验丰富的专业团队致力于在交易的每个阶段提供卓越的客户服务和支持。\
+                      <span style="display: none;">我们与客户密切合作，了解他们的独特需求和要求，并定制我们的服务以满足他们的特定需求。 我们的目标是超越客户的期望并确保他们完全满意。</span>'                   
+  whyGlobal.innerHTML = '我们拥有全球供应商和合作伙伴网络，这使我们能够为客户提供进入广泛产品和市场的途径。\
+                      <span style="display: none;">无论我们的客户是希望从特定地区采购产品还是将业务扩展到新市场，我们都有专业知识和资源来帮助他们实现目标。 我们的全球影响力还意味着我们可以为我们的客户提供最新的市场趋势和见解，使他们在行业中具有竞争优势。</span>'
+
+  // team
+  teamHeading.innerHTML = '认识团队';
+
+  // footer
+  footerAddress.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">\
+  <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"/>\
+  </svg>  地址';
+  footerAboutHeading.innerHTML = '关于我们';
+  footerAbout.innerHTML = '我们是简历。 Cakra Anagata Gemilang 是一家可以满足您所有需求以帮助您发展公司的公司。 我们确信我们员工的素质和经验可以为我们全球的业务合作伙伴带来巨大的利益。\
+  \
+  作为我们成为第一供应商的座右铭，我们下定决心要以高度的专业精神工作。 因此，我们总是尽力满足我们的业务合作伙伴。'
+}
+
+// french
+function translateFrench() {
+  // navbar
+  navbarHome.innerHTML = 'Maison';
+  navbarAbout.innerHTML = 'À propos';
+  navbarProduct.innerHTML = 'Des produits';
+  navbarTeam.innerHTML = 'Équipe';
+  navbarPartner.innerHTML = 'Les partenaires';
+  navbarLanguage.innerHTML = 'Langue';
+  navbarContact.innerHTML = 'Contactez-nous';
+  navbarAgriPro.innerHTML = 'Production agricole';
+  navbarManuPro.innerHTML = 'Fabrication de produits';
+  
+  // about
+  ctaWhatsApp.innerHTML = 'Contactez-nous  <img src="./assets/logo/whatsapp-logo.png" alt="">';
+  welcomingCompany.innerHTML = 'Bienvenue à';
+  aboutMain.innerHTML = 'CV. Cakra Anagata Gemilang est une société spécialisée dans l\'import-export et le commerce général, située à Majalengka, dans l\'ouest de Java, avec un vaste réseau de fournisseurs de produits de base en Indonésie et dans le monde.\
+  <span style="display: none;" id="aboutMainMore"> Notre société a une licence et une légalité complètes en tant que société d\'exportation-importation et de commerce général. Notre entreprise soutient également pleinement et coopère avec d\'autres entreprises pour aider les agriculteurs, les éleveurs, les PME, à pouvoir commercialiser leurs produits au niveau national et mondial CV. Cakra Anagata Gemilang très sélectif lors du choix de nos fournisseurs et revendeurs. Nous sommes profondément attachés aux valeurs fondamentales de notre entreprise, qui sont : l\'intégrité, la qualité, l\'engagement et la confiance.</span>';
+  aboutVision.innerHTML = 'Devenir un exportateur et importateur mondial de premier plan, reconnu pour notre engagement envers des pratiques commerciales éthiques, un service client exceptionnel et la livraison de produits de haute qualité à des prix compétitifs.';
+  aboutMission.innerHTML = 'Notre mission est de fournir à nos clients le meilleur service et les meilleurs produits possibles, en tirant parti de notre vaste réseau de fournisseurs et de partenaires à travers le monde.\
+  <span style="display: none;" id="aboutMissionMore">\
+  Nous nous efforçons de dépasser les attentes de nos clients en fournissant des produits et services de qualité supérieure, dans les délais et dans les limites du budget. Nous nous engageons à mener nos activités avec intégrité, transparence et responsabilité sociale, tout en améliorant continuellement nos opérations pour assurer une croissance durable à nos parties prenantes. Nous visons à être un partenaire de confiance pour nos clients, fournisseurs et employés, en créant des relations à long terme basées sur la confiance et le respect mutuels.\
+  </span>';
+  aboutVisionHeading.innerHTML = 'Vision';
+  aboutMissionHeading.innerHTML = 'Mission';
+  
+  // company values
+  valueHeading.innerHTML = 'Valeurs de l\'entreprise';
+  valueIntegrityHeading.innerHTML = 'Intégrité';
+  valuePreciseHeading.innerHTML = 'Précise';
+  valueAffectiveHeading.innerHTML = 'Affective';
+  valueIntegrity.innerHTML = 'Faire des affaires avec honnêteté, transparence et pratiques éthiques.\
+  <span style="display: none;">Cela implique d\'être honnête sur les spécifications des produits, les prix et les délais de livraison, ainsi que de respecter toutes les exigences légales et réglementaires. Cela signifie également traiter toutes les parties prenantes, y compris les clients, les fournisseurs, les employés et la communauté, avec respect et équité. En respectant des normes d\'intégrité élevées, l\'entreprise peut instaurer la confiance et établir une réputation positive sur le marché, ce qui est essentiel pour un succès à long terme.</span>'
+  valuePrecise.innerHTML = 'Porter une attention particulière aux détails et assurer l\'exactitude dans tous les aspects de l\'entreprise.\
+  <span style="display: none;">Cela nécessite une planification minutieuse, une communication efficace et l\'utilisation de technologies et de systèmes avancés pour minimiser les erreurs et les retards. En étant précise, l\'entreprise peut améliorer l\'efficacité, réduire les coûts et améliorer la satisfaction de la clientèle, ce qui peut entraîner des affaires répétées et des recommandations.</span>'
+  valueAffective.innerHTML = 'Être réactif et proactif pour répondre aux besoins et aux attentes des clients.\
+  <span style="display: none;">Cela nécessite de comprendre les exigences uniques de chaque client, y compris leurs préférences culturelles, linguistiques et logistiques. Cela signifie également être flexible et adaptable aux conditions changeantes du marché et aux demandes des clients. En étant affective, l\'entreprise peut établir des relations solides avec ses clients, se différencier de ses concurrents et accroître la fidélité et la rétention de ses clients.</span>';
+  
+  // products
+  // heading
+  productHeading.innerHTML = 'Ce que nous offrons';
+  productAgriHeading.innerHTML = 'Production agricole';
+  productManuHeading.innerHTML = 'Fabrication de produits';
+
+  // product cards
+  productHoneyHeading.innerHTML = 'Miel sauvage naturel';
+  productHoney.innerHTML = 'L\'Indonésie est connue pour sa flore et sa faune diversifiées, qui produisent une large gamme de miel sauvage naturel.\
+                          <span style="display: none;">Il est récolté dans les forêts et autres habitats naturels et est connu pour ses saveurs uniques et ses bienfaits pour la santé. Les miels sauvages naturels indonésiens comprennent des variétés telles que le miel de la forêt tropicale de Riau, le miel de la jungle de Java et le miel de Tualang du nord de Sumatra.</span>'
+
+  productPotatoHeading.innerHTML = 'Pomme de terre';
+  productPotato.innerHTML = 'Les pommes de terre indonésiennes sont connues pour leur haute qualité et sont très demandées tant au niveau national qu\'international.\
+                          <span style="display: none;">Il propose une variété de pommes de terre, y compris des pommes de terre de grande et de petite taille, qui sont utilisées dans une variété de plats tels que les frites, la purée de pommes de terre et les croustilles.</span>';
+
+  productCoffeeHeading.innerHTML = 'Robusta et Arabica (Café Temanggung)';
+  productCoffee.innerHTML = 'L\'Indonésie est l\'un des plus grands producteurs de café au monde et est connue pour ses grains de Robusta et d\'Arabica de haute qualité.\
+                          <span style="display: none;">Temanggung, située dans le centre de Java, est une région qui produit l\'un des meilleurs cafés d\'Indonésie. Le café Temanggung a un goût et un arôme uniques et est très recherché par les connaisseurs de café.</span>';
+
+  productCornHeading.innerHTML = 'Le maïs sucré';
+  productCorn.innerHTML = 'Le maïs sucré indonésien est une collation et un ingrédient de cuisine populaire, connu pour son goût sucré et juteux.\
+                          <span style="display: none;">Il est cultivé dans de nombreuses régions du pays et est disponible à la fois frais et congelé. C\'est un ingrédient polyvalent utilisé dans une variété de plats tels que la soupe, la salade et comme plat d\'accompagnement.</span>';
+
+  productSpicesHeading.innerHTML = 'Épices';
+  productSpices.innerHTML = 'L\'Indonésie est une terre d\'épices et produit une grande variété d\'épices de haute qualité, telles que la muscade, la cannelle, les clous de girofle et le curcuma.\
+                          <span style="display: none;">Ils sont connus pour leurs saveurs et leurs arômes uniques et sont utilisés dans de nombreuses cuisines internationales. Ces épices sont également largement utilisées dans les plats traditionnels indonésiens, tels que le rendang, le sate et le gulai.</span>'
+
+  productFertilizerHeading = 'Engrais, décomposeur et pesticide';
+  productFertilizer.innerHTML = 'Nos engrais, pesticides et décomposeurs originaires d\'Indonésie se sont avérés efficaces pour améliorer la fertilité des sols, lutter contre les ravageurs et améliorer les rendements des cultures.\
+                        <span style="display: none;">Cependant, leur efficacité dépend de divers facteurs et les agriculteurs doivent les utiliser en conjonction avec de bonnes pratiques agricoles pour obtenir les meilleurs résultats.</span>';
+
+  productPillowHeading.innerHTML = 'Oreillers, traversins, serviettes et autres produits textiles';
+  productPillow.innerHTML = 'L\'Indonésie possède une industrie textile florissante qui produit une large gamme de produits tels que des oreillers, des traversins, des serviettes et d\'autres textiles de maison.\
+                          <span style="display: none;">Ces produits sont connus pour leur haute qualité et leurs beaux designs, et sont fabriqués à partir de fibres naturelles telles que le coton, la soie et le lin. Les textiles indonésiens sont populaires tant au niveau national qu\'international.';
+
+  productChickenHeading.innerHTML = 'Poulet congelé halal';
+  productChicken.innerHTML = 'L\'Indonésie est l\'un des plus grands producteurs de poulet halal au monde et exporte vers de nombreux pays du monde.\
+                          <span style="display: none;">Le poulet congelé halal indonésien est connu pour sa haute qualité et son strict respect des normes halal. Les poulets sont élevés dans un environnement naturel et sont exempts d\'hormones artificielles ou d\'antibiotiques.</span>';
+
+  productCandleHeading.innerHTML = 'Bougies parfumées maison';
+  productCandle.innerHTML = 'Les bougies parfumées indonésiennes sont fabriquées à la main et fabriquées à partir de matériaux naturels tels que la cire de soja et les huiles essentielles.\
+                          <span style="display: none;">Ces bougies sont disponibles dans une large gamme de parfums tels que la vanille, la lavande et les agrumes, et sont connues pour leur parfum durable et leur bel emballage. Ils font un cadeau parfait ou une décoration pour toute occasion.</span>';
+
+  productSawdustHeading.innerHTML = 'Sciure de bois et briquette de chicha';
+  productSawdust.innerHTML = 'L\'Indonésie produit de la sciure de bois et des briquettes de chicha de haute qualité à base de matériaux naturels tels que la coque de noix de coco et les copeaux de bois.\
+                          <span style="display: none;">Ces briquettes sont utilisées pour griller et fumer des aliments et sont connues pour leur puissance calorifique élevée et leur longue durée de combustion. Ils sont un choix populaire parmi les amateurs de barbecue et sont exportés dans de nombreux pays du monde.</span>';
+
+  productCosmeticHeading.innerHTML = 'Cosmétiques & Soins du corps';
+  productCosmetic.innerHTML = 'L\'Indonésie a une riche tradition d\'utilisation d\'ingrédients naturels pour les produits cosmétiques et de soins corporels.\
+                          <span style="display: none;">De nombreux produits cosmétiques et de soins corporels indonésiens sont fabriqués à partir de matériaux naturels tels que l\'huile de noix de coco, le miel et la farine de riz. Ces produits sont connus pour leur efficacité et sont souvent utilisés dans les spas et les salons du monde entier.</span>';
+
+  productCeramicHeading.innerHTML = 'Céramique';
+  productCeramic.innerHTML = 'La céramique indonésienne est connue pour ses designs uniques et son magnifique savoir-faire.\
+  <span style="display: none;">Ils sont fabriqués à partir de matériaux naturels tels que l\'argile et sont disponibles dans une large gamme de formes et de tailles. Les céramiques indonésiennes sont populaires à la fois au niveau national et international et sont souvent utilisées comme objets de décoration ou pour servir de la nourriture et des boissons.</span>';
+
+  // partner
+  partnerHeading.innerHTML = 'Nos partenaires';
+
+  // why us
+  whyHeading.innerHTML = 'Pourquoi nous';
+  whyQualityHeading.innerHTML = 'Produits de qualité';
+  whyPricingHeading1.innerHTML = 'Des prix ';
+  whyPricingHeading2.innerHTML = 'compétitifs';
+  whyCsHeading1.innerHTML = 'Service ';
+  whyCsHeading2.innerHTML = 'client exceptionnel';
+  whyGlobalHeading.innerHTML = 'Portée mondiale';
+  whyQuality.innerHTML = 'Nous proposons une large gamme de produits de haute qualité provenant de fournisseurs de confiance du monde entier.\
+                      <span style="display: none;">Nos produits sont soumis à des mesures de contrôle de qualité rigoureuses pour s\'assurer qu\'ils répondent aux normes d\'excellence les plus élevées, donnant à nos clients la tranquillité d\'esprit et la confiance dans leurs achats.</span>'
+  whyPricing.innerHTML = 'Nous nous efforçons d\'offrir à nos clients les prix les plus compétitifs possibles, sans compromis sur la qualité ou le service.\
+                      <span style="display: none;">Notre vaste réseau de fournisseurs et de partenaires nous permet de négocier des conditions avantageuses, que nous transmettons à nos clients, leur permettant de réaliser des économies et de maximiser leur rentabilité.</span>'
+  whyCs.innerHTML = 'Notre équipe de professionnels expérimentés se consacre à fournir un service client et un soutien exceptionnels à chaque étape de la transaction.\
+                      <span style="display: none;">Nous travaillons en étroite collaboration avec nos clients pour comprendre leurs besoins et exigences uniques, et nous adaptons nos services pour répondre à leurs demandes spécifiques. Notre objectif est de dépasser les attentes de nos clients et d\'assurer leur entière satisfaction.</span>'                   
+  whyGlobal.innerHTML = 'Nous disposons d\'un réseau mondial de fournisseurs et de partenaires, ce qui nous permet d\'offrir à nos clients l\'accès à une large gamme de produits et de marchés.\
+                      <span style="display: none;">Que nos clients cherchent à s\'approvisionner en produits dans une région spécifique ou à étendre leurs activités à de nouveaux marchés, nous avons l\'expertise et les ressources pour les aider à atteindre leurs objectifs. Notre portée mondiale signifie également que nous pouvons fournir à nos clients les dernières tendances et perspectives du marché, leur donnant un avantage concurrentiel dans l\'industrie.</span>'
+
+  // team
+  teamHeading.innerHTML = 'Rencontrer l\'équipe';
+
+  // footer
+  footerAddress.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">\
+  <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"/>\
+  </svg>  adresse';
+  footerAboutHeading.innerHTML = 'À propos de nous';
+  footerAbout.innerHTML = 'Nous sommes CV. Cakra Anagata Gemilang est une entreprise qui peut répondre à tous vos besoins pour vous aider à développer votre entreprise. Nous sommes sûrs de la qualité et des expériences de nos employés qui peuvent apporter d\'énormes avantages à nos partenaires commerciaux dans le monde entier.\
+  \
+  Comme notre devise est d\'être un fournisseur numéro un, nous sommes très déterminés à travailler avec un grand professionnalisme. Par conséquent, nous essayons toujours de notre mieux pour satisfaire nos partenaires commerciaux.'
+}
+
 buttonEnglish.onclick = defaultLanguage;
 buttonBahasa.onclick = translateBahasa;
 buttonSpanish.onclick = translateSpanish;
