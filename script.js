@@ -141,6 +141,9 @@ let whyPricing = document.getElementById('whyPricing');
 let whyCs = document.getElementById('whyCs');
 let whyGlobal = document.getElementById('whyGlobal');
 
+// team
+let teamHeading = document.getElementById('teamHeading');
+
 // footer
 let footerAboutHeading = document.getElementById('footerAboutHeading');
 let footerAbout = document.getElementById('footerAbout');
@@ -259,6 +262,8 @@ function defaultLanguage() {
   whyGlobal.innerHTML = 'We have a global network of suppliers and partners, which enables us to offer our customers access to a wide range of products and markets.\
                       <span style="display: none;">Whether our customers are looking to source products from a specific region or expand their business to new markets, we have the expertise and resources to help them achieve their goals. Our global reach also means that we can provide our customers with the latest market trends and insights, giving them a competitive edge in the industry.</span>'
 
+  // team
+  teamHeading.innerHTML = 'Meet The Team';
 
   // footer
   footerAddress.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">\
@@ -383,6 +388,8 @@ function translateBahasa() {
   whyGlobal.innerHTML = 'Kami memiliki jaringan pemasok dan mitra global, yang memungkinkan kami untuk menawarkan pelanggan kami akses ke berbagai produk dan pasar.\
                       <span style="display: none;">Apakah pelanggan kami mencari sumber produk dari wilayah tertentu atau memperluas bisnis mereka ke pasar baru, kami memiliki keahlian dan sumber daya untuk membantu mereka mencapai tujuan mereka. Jangkauan global kami juga berarti bahwa kami dapat memberi pelanggan kami tren dan wawasan pasar terbaru, memberi mereka keunggulan kompetitif dalam industri ini.</span>'
 
+  // team
+  teamHeading.innerHTML = 'Perkenalkan Tim Kami';
 
   // footer
   footerAddress.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">\
@@ -392,6 +399,131 @@ function translateBahasa() {
   footerAbout.innerHTML = 'Kami CV. Cakra Anagata Gemilang adalah perusahaan yang dapat menyediakan segala kebutuhan Anda untuk membantu mengembangkan perusahaan Anda. Kami yakin dengan kualitas dan pengalaman karyawan kami yang dapat memberikan manfaat besar bagi mitra bisnis kami di seluruh dunia.\
   \
                 Sesuai motto kami untuk menjadi penyedia nomor satu, kami sangat bertekad untuk bekerja dengan profesionalisme yang tinggi. Oleh karena itu, kami selalu berusaha sebaik mungkin untuk memuaskan mitra bisnis kami.'
+}
+
+// spanish
+function translateSpanish() {
+  // navbar
+  navbarHome.innerHTML = 'La Casa';
+  navbarAbout.innerHTML = 'Acerca De';
+  navbarProduct.innerHTML = 'Productos';
+  navbarTeam.innerHTML = 'Equipo';
+  navbarPartner.innerHTML = 'Socios';
+  navbarLanguage.innerHTML = 'Idioma';
+  navbarContact.innerHTML = 'Contacta con nosotros';
+  navbarAgriPro.innerHTML = 'Productos agrícolas';
+  navbarManuPro.innerHTML = 'Fabricación de productos';
+  
+  // about
+  ctaWhatsApp.innerHTML = 'Contacta con nosotros  <img src="./assets/logo/whatsapp-logo.png" alt="">';
+  welcomingCompany.innerHTML = 'Bienvenido a';
+  aboutMain.innerHTML = 'CV. Cakra Anagata Gemilang es una empresa dedicada a la exportación, importación y comercio general, ubicada en Majalengka, Java Occidental, con una enorme red de proveedores de productos básicos en Indonesia y en todo el mundo.<span style="display: none;" id="aboutMainMore"> Nuestra empresa tiene licencia completa y legalidad como empresa de Exportación-Importación y Comercio General. Nuestra empresa también apoya totalmente y coopera con otras empresas para ayudar a los agricultores, criadores, PYMES, a poder comercializar sus productos a nivel nacional y mundial CV. Cakra Anagata Gemilang muy selectivo a la hora de elegir a nuestros proveedores y distribuidores. Nos aferramos profundamente a los valores fundamentales de nuestra empresa, que son: Integridad, Calidad, Compromiso y Confianza.</span>';
+  aboutVision.innerHTML = 'Convertirnos en un exportador e importador líder a nivel mundial, reconocido por nuestro compromiso con las prácticas comerciales éticas, un servicio al cliente excepcional y la entrega de productos de alta calidad a precios competitivos.';
+  aboutMission.innerHTML = 'Nuestra misión es proporcionar a nuestros clientes el mejor servicio y productos posibles, aprovechando nuestra amplia red de proveedores y socios en todo el mundo.\
+  <span style="display: none;" id="aboutMissionMore">\
+  Nos esforzamos por superar las expectativas de nuestros clientes mediante la entrega de productos y servicios de calidad superior, a tiempo y dentro del presupuesto. Estamos comprometidos a realizar nuestro negocio con integridad, transparencia y responsabilidad social, mientras mejoramos continuamente nuestras operaciones para garantizar un crecimiento sostenible para nuestros grupos de interés. Nuestro objetivo es ser un socio de confianza para nuestros clientes, proveedores y empleados, creando relaciones a largo plazo basadas en la confianza y el respeto mutuos.\
+  </span>';
+  aboutVisionHeading.innerHTML = 'Visión';
+  aboutMissionHeading.innerHTML = 'Misión';
+  
+  // company values
+  valueHeading.innerHTML = 'Valores de la empresa';
+  valueIntegrityHeading.innerHTML = 'Integridad';
+  valuePreciseHeading.innerHTML = 'Preciso';
+  valueAffectiveHeading.innerHTML = 'Afectivo';
+  valueIntegrity.innerHTML = 'Realizar negocios con honestidad, transparencia y prácticas éticas.\
+  <span style="display: none;">Esto incluye ser veraz sobre las especificaciones del producto, los precios y los plazos de entrega, así como cumplir con todos los requisitos legales y reglamentarios. También significa tratar a todas las partes interesadas, incluidos clientes, proveedores, empleados y la comunidad, con respeto y justicia. Al mantener altos estándares de integridad, la empresa puede generar confianza y establecer una reputación positiva en el mercado, lo cual es esencial para el éxito a largo plazo.</span>'
+  valuePrecise.innerHTML = 'Prestar mucha atención a los detalles y garantizar la precisión en todos los aspectos del negocio.\
+  <span style="display: none;">Esto requiere una planificación cuidadosa, una comunicación eficaz y el uso de tecnologías y sistemas avanzados para minimizar errores y retrasos. Al ser precisa, la empresa puede mejorar la eficiencia, reducir los costos y mejorar la satisfacción del cliente, lo que puede conducir a la repetición de negocios y referencias.</span>'
+  valueAffective.innerHTML = 'Ser receptivo y proactivo para satisfacer las necesidades y expectativas de los clientes.\
+  <span style="display: none;">Esto requiere comprender los requisitos únicos de cada cliente, incluidas sus preferencias culturales, lingüísticas y logísticas. También significa ser flexible y adaptable a las condiciones cambiantes del mercado y las demandas de los clientes. Al ser afectivo, la empresa puede construir relaciones sólidas con los clientes, diferenciarse de la competencia y aumentar la lealtad y retención de los clientes.</span>';
+  
+  // products
+  // heading
+  productHeading.innerHTML = 'Lo que ofrecemos';
+  productAgriHeading.innerHTML = 'Productos agrícolas';
+  productManuHeading.innerHTML = 'Fabricación de productos';
+
+  // product cards
+  productHoneyHeading.innerHTML = 'Miel Silvestre Natural';
+  productHoney.innerHTML = 'Indonesia es conocida por su diversidad de flora y fauna, que produce una amplia gama de miel silvestre natural.\
+                          <span style="display: none;"> Se cosecha de los bosques y otros hábitats naturales, y son conocidos por sus sabores únicos y beneficios para la salud. Las mieles silvestres naturales de Indonesia incluyen variedades como la miel de la selva tropical de Riau, la miel de la selva de Java y la miel de Tualang del norte de Sumatra.</span>'
+
+  productPotatoHeading.innerHTML = 'Papa';
+  productPotato.innerHTML = 'Las papas de Indonesia son conocidas por su alta calidad y tienen una gran demanda tanto a nivel nacional como internacional.\
+                          <span style="display: none;"> Tiene variedad de papas, incluyendo papas grandes y pequeñas, que se utilizan en una variedad de platos como papas fritas, puré de papas y papas fritas.</span>';
+
+  productCoffeeHeading.innerHTML = 'Robusta y Arábica (Café Temanggung)';
+  productCoffee.innerHTML = 'Indonesia es uno de los mayores productores de café del mundo y es conocido por sus granos de Robusta y Arábica de alta calidad.\
+                          <span style="display: none;"> Temanggung, located in Central Java, is a region that produces some of the best coffee in Indonesia. Temanggung coffee has a unique taste and aroma, and is highly sought after by coffee connoisseurs.</span>';
+
+  productCornHeading.innerHTML = 'Maíz dulce';
+  productCorn.innerHTML = 'El maíz dulce de Indonesia es un refrigerio popular y un ingrediente para cocinar, conocido por su sabor dulce y jugoso.\
+                          <span style="display: none;"> Se cultiva en muchas regiones del país y está disponible tanto fresco como congelado. Es un ingrediente versátil que se utiliza en una variedad de platos, como sopas, ensaladas y como guarnición.</span>';
+
+  productSpicesHeading.innerHTML = 'Especias';
+  productSpices.innerHTML = 'Indonesia es una tierra de especias y produce una amplia variedad de especias de alta calidad, como la nuez moscada, la canela, el clavo y la cúrcuma.\
+                          <span style="display: none;"> Son conocidos por sus sabores y aromas únicos, y se utilizan en muchas cocinas internacionales. Estas especias también se usan ampliamente en platos tradicionales de Indonesia, como rendang, sate y gulai.</span>'
+
+  productFertilizerHeading = 'Fertilizante, descomponedor y pesticida';
+  productFertilizer.innerHTML = 'Se ha descubierto que nuestros fertilizantes, pesticidas y descomponedores que se originaron en Indonesia son efectivos para mejorar la fertilidad del suelo, controlar plagas y mejorar el rendimiento de los cultivos.\
+                        <span style="display: none;"> Sin embargo, su efectividad depende de varios factores, y los agricultores deben usarlos junto con buenas prácticas agrícolas para lograr los mejores resultados.</span>';
+
+  productPillowHeading.innerHTML = 'Almohadas, Bolsters, Toallas y otros productos textiles';
+  productPillow.innerHTML = 'Indonesia tiene una próspera industria textil que produce una amplia gama de productos como almohadas, almohadones, toallas y otros textiles para el hogar.\
+                          <span style="display: none;"> Estos productos son conocidos por su alta calidad y hermosos diseños, y están hechos de fibras naturales como el algodón, la seda y el lino. Los textiles indonesios son populares tanto a nivel nacional como internacional.';
+
+  productChickenHeading.innerHTML = 'Pollo Congelado Halal';
+  productChicken.innerHTML = 'Indonesia es uno de los mayores productores de pollo halal del mundo y exporta a muchos países del mundo.\
+                          <span style="display: none;"> El pollo congelado halal de Indonesia es conocido por su alta calidad y su estricto cumplimiento de los estándares halal. Los pollos se crían en un entorno natural y están libres de hormonas artificiales o antibióticos.</span>';
+
+  productCandleHeading.innerHTML = 'Velas Aromáticas Caseras';
+  productCandle.innerHTML = 'Las velas perfumadas de Indonesia están hechas a mano con materiales naturales como la cera de soja y los aceites esenciales.\
+                          <span style="display: none;"> Estas velas vienen en una amplia gama de aromas, como vainilla, lavanda y cítricos, y son conocidas por su fragancia duradera y su hermoso empaque. Son un regalo perfecto o una decoración para cualquier ocasión.</span>';
+
+  productSawdustHeading.innerHTML = 'Briquetas de aserrín y shisha';
+  productSawdust.innerHTML = 'Indonesia produce aserrín de alta calidad y briquetas de shisha hechas de materiales naturales como cáscara de coco y astillas de madera.\
+                          <span style="display: none;"> Estas briquetas se utilizan para asar y ahumar alimentos, y son conocidas por su alto rendimiento calorífico y su largo tiempo de combustión. Son una opción popular entre los entusiastas de la barbacoa y se exportan a muchos países del mundo.</span>';
+
+  productCosmeticHeading.innerHTML = 'Cosméticos y Cuidado Corporal';
+  productCosmetic.innerHTML = 'Indonesia tiene una rica tradición en el uso de ingredientes naturales para productos cosméticos y de cuidado corporal.\
+                          <span style="display: none;"> Muchos productos cosméticos y para el cuidado del cuerpo de Indonesia están hechos de materiales naturales como el aceite de coco, la miel y la harina de arroz. Estos productos son conocidos por su eficacia y se utilizan a menudo en spas y salones de belleza de todo el mundo.</span>';
+
+  productCeramicHeading.innerHTML = 'Cerámica';
+  productCeramic.innerHTML = 'La cerámica de Indonesia es conocida por sus diseños únicos y su hermosa artesanía.\
+  <span style="display: none;"> Están hechos de materiales naturales como la arcilla y están disponibles en una amplia gama de formas y tamaños. La cerámica indonesia es popular tanto a nivel nacional como internacional y, a menudo, se usa como elemento decorativo o para servir comidas y bebidas.</span>';
+
+  // partner
+  partnerHeading.innerHTML = 'Nuestros compañeros';
+
+  // why us
+  whyHeading.innerHTML = 'Por qué nosotros';
+  whyQualityHeading.innerHTML = 'Productos de calidad';
+  whyPricingHeading1.innerHTML = 'Precio ';
+  whyPricingHeading2.innerHTML = 'Competitivo';
+  whyCsHeading1.innerHTML = 'Servicio al ';
+  whyCsHeading2.innerHTML = 'cliente excepcional';
+  whyGlobalHeading.innerHTML = 'Alcance global';
+  whyQuality.innerHTML = 'Ofrecemos una amplia gama de productos de alta calidad provenientes de proveedores confiables de todo el mundo.\
+                      <span style="display: none;"> Nuestros productos se someten a rigurosos controles de calidad para garantizar que cumplan con los más altos estándares de excelencia, brindando a nuestros clientes tranquilidad y confianza en sus compras.</span>'
+  whyPricing.innerHTML = 'Nos esforzamos por ofrecer a nuestros clientes los precios más competitivos posibles, sin comprometer la calidad o el servicio.\
+                      <span style="display: none;"> Nuestra extensa red de proveedores y socios nos permite negociar términos favorables, que transmitimos a nuestros clientes, permitiéndoles lograr ahorros de costos y maximizar su rentabilidad.</span>'
+  whyCs.innerHTML = 'Nuestro equipo de profesionales experimentados se dedica a brindar un servicio al cliente excepcional y soporte en cada etapa de la transacción.\
+                      <span style="display: none;"> Trabajamos en estrecha colaboración con nuestros clientes para comprender sus necesidades y requisitos únicos, y adaptamos nuestros servicios para satisfacer sus demandas específicas. Nuestro objetivo es superar las expectativas de nuestros clientes y lograr su completa satisfacción.</span>'                   
+  whyGlobal.innerHTML = 'Contamos con una red global de proveedores y socios, lo que nos permite ofrecer a nuestros clientes acceso a una amplia gama de productos y mercados.\
+                      <span style="display: none;"> Ya sea que nuestros clientes busquen obtener productos de una región específica o expandir su negocio a nuevos mercados, contamos con la experiencia y los recursos para ayudarlos a lograr sus objetivos. Nuestro alcance global también significa que podemos brindarles a nuestros clientes las últimas tendencias y conocimientos del mercado, brindándoles una ventaja competitiva en la industria.</span>'
+
+  // team
+  teamHeading.innerHTML = 'Conocer al equipo';
+
+  // footer
+  footerAddress.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">\
+  <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"/>\
+  </svg>  DIRECCIÓN';
+  footerAboutHeading.innerHTML = 'Sobre nosotros';
+  footerAbout.innerHTML = 'Somos CV. Cakra Anagata Gemilang es una empresa que puede satisfacer todas sus necesidades para ayudar a hacer crecer su empresa. Estamos seguros de la calidad y las experiencias de nuestra gente que pueden generar grandes beneficios para nuestros socios comerciales en todo el mundo.\
+  \
+  Como nuestro lema para ser un proveedor número uno, estamos muy decididos a trabajar con gran profesionalismo. Por lo tanto, siempre hacemos todo lo posible para satisfacer a nuestros socios comerciales.'
 }
 
 buttonEnglish.onclick = defaultLanguage;
