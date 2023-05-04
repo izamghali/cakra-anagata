@@ -91,7 +91,7 @@ html {
     background-color: var(--gray-color-3);
 }
 
-.greeting-text {
+#welcomingCompany {
     font-weight: 250;
 }
 

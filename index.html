@@ -46,9 +46,9 @@
               Products
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item text-hover-accent navbar-drop-down-active" href="#products">Agricultural products</a>
+              <a class="dropdown-item text-hover-accent navbar-drop-down-active" href="#products" id="navbarAgriPro">Agricultural Products</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item text-hover-accent navbar-drop-down-active" href="#products">Manufacture products</a>
+              <a class="dropdown-item text-hover-accent navbar-drop-down-active" href="#products" id="navbarManuPro">Manufacture Products</a>
             </div>
           </li>
 
@@ -139,7 +139,7 @@
       <div class="row about-row px-lg-5" id="about">
         <div class="col py-5 about-company-col">
 
-          <!-- about company -->
+          <!-- about company row 1 -->
           <div class="row flex-wrap">
 
             <!-- about company carousel -->
@@ -190,13 +190,13 @@
 
             <!-- about company text -->
             <div class="col">
-              <p class="mb-1 greeting-text">Welcome to</p>
+              <p class="mb-1" id="welcomingCompany">Welcome to</p>
               <h2>CV. Cakra Anagata Gemilang</h2>
               <p class="company-subtitle">- Your Greatest Business Partner -</p>
-              <p class="text-secondary">CV. Cakra Anagata Gemilang is a company engaged in Export-Import and General
+              <p class="text-secondary" id="aboutMainLess">CV. Cakra Anagata Gemilang is a company engaged in Export-Import and General
                 Trading, located in Majalengka, West Java with a huge network of any commodity suppliers in
                 Indonesia and worldwide.
-                <span style="display: none;">
+                <span style="display: none;" id="aboutMainMore">
                   Our company has complete license and legality as a Export-Import and General Trading
                   company. Our company also fully supported and cooperates with other companies to help
                   farmers, breeders, SMEs, to be able to market their products nationally and worldwide
@@ -209,24 +209,24 @@
               <a class="accent-pointer read-more-button">Read more</a>
 
               <!-- read less button -->
-              <a class="accent-pointer" style="display: none;">Read less</a>
+              <a class="accent-pointer read-less-button" style="display: none;">Read less</a>
             </div>
 
           </div>
 
-          <!-- vision & mission -->
+          <!-- about company row 2 -->
           <div class="row">
 
             <!-- vision -->
             <div class="col-md-6 col-sm-12">
-              <h2>Vision</h2>
-              <p class="text-secondary">To become a leading global exporter and importer, recognized for our commitment to ethical business practices, exceptional customer service, and the delivery of high-quality products at competitive prices.</p>
+              <h2 id="aboutVisionHeading">Vision</h2>
+              <p class="text-secondary" id="aboutVision">To become a leading global exporter and importer, recognized for our commitment to ethical business practices, exceptional customer service, and the delivery of high-quality products at competitive prices.</p>
             </div>
 
             <!-- mission -->
             <div class="col-md-6 col-sm-10">
-              <h2>Mission</h2>
-              <p class="text-secondary">Our mission is to provide our customers with the best possible service and products, by leveraging our extensive network of suppliers and partners around the world.
+              <h2 id="aboutMissionHeading">Mission</h2>
+              <p class="text-secondary" id="aboutMissionLess">Our mission is to provide our customers with the best possible service and products, by leveraging our extensive network of suppliers and partners around the world.
                 <span style="display: none;">
                   We strive to exceed our customers' expectations by delivering superior quality products and services, on time and within budget. We are committed to conducting our business with integrity, transparency, and social responsibility, while continuously improving our operations to ensure sustainable growth for our stakeholders. We aim to be a trusted partner for our customers, suppliers, and employees, creating long-term relationships based on mutual trust and respect.
                 </span>
@@ -236,7 +236,7 @@
               <a class="accent-pointer read-more-button">Read more</a>
 
               <!-- read less button -->
-              <a class="accent-pointer" style="display: none;">Read less</a>
+              <a class="accent-pointer read-less-button" style="display: none;">Read less</a>
               <!-- <ul class="px-2">
                 <li class="text-secondary">Responsive and proactive in developing local and inter-local business</li>
                 <li class="text-secondary">Becoming a provider goods of international standards for local and inter-local business</li>
@@ -255,7 +255,7 @@
           <!-- values heading -->
           <div class="row">
             <div class="col">
-              <h2 class="text-center mb-5 text-light">Company Values</h2>
+              <h2 class="text-center mb-5 text-light" id="valueHeading">Company Values</h2>
             </div>
           </div>
 
@@ -268,10 +268,10 @@
                 <div class="card-body">
                   <div class="card-heading mb-3">
                     <img class="value-card-img" src="./assets/values-icon/handshake-solid.svg">
-                    <h3 class="d-inline-flex">Integrity</h3>
+                    <h3 class="d-inline-flex" id="valueIntegrityHeading">Integrity</h3>
                   </div>    
 
-                  <p class="value-text text-secondary">Conducting business with honesty, transparency, and ethical practices.
+                  <p class="value-text text-secondary" id="valueIntegrity">Conducting business with honesty, transparency, and ethical practices.
                     <span style="display: none;">This includes being truthful about product specifications, pricing, and delivery timelines, as well as adhering to all legal and regulatory requirements. It also means treating all stakeholders, including customers, suppliers, employees, and the community, with respect and fairness. By upholding high standards of integrity, the company can build trust and establish a positive reputation in the marketplace, which is essential for long-term success.</span>
                   </p> 
 
@@ -290,9 +290,9 @@
                 <div class="card-body">
                   <div class="card-heading mb-3">
                     <img class="value-card-img" src="./assets/values-icon/magnifying-glass-solid.svg">
-                    <h3 class="d-inline-flex">Precise</h3>
+                    <h3 class="d-inline-flex" id="valuePreciseHeading">Precise</h3>
                   </div>
-                  <p class="card-text text-secondary">Paying close attention to details and ensuring accuracy in all aspects of the business.
+                  <p class="card-text text-secondary" id="valuePrecise">Paying close attention to details and ensuring accuracy in all aspects of the business.
                     <span style="display: none;">This requires careful planning, effective communication, and the use of advanced technologies and systems to minimize errors and delays. By being precise, the company can improve efficiency, reduce costs, and enhance customer satisfaction, which can lead to repeat business and referrals.</span>
                   </p>
                   
@@ -312,9 +312,9 @@
                 <div class="card-body">
                   <div class="card-heading mb-3">
                     <img class="value-card-img" src="./assets/values-icon/user-check-solid.svg">
-                    <h3 class="d-inline-flex">Affective</h3>
+                    <h3 class="d-inline-flex" id="valueAffectiveHeading">Affective</h3>
                   </div>
-                  <p class="card-text text-secondary">Being responsive and proactive in meeting customer needs and expectations.
+                  <p class="card-text text-secondary" id="valueAffective">Being responsive and proactive in meeting customer needs and expectations.
                     <span style="display: none;">This requires understanding the unique requirements of each customer, including their cultural, linguistic, and logistical preferences. It also means being flexible and adaptable to changing market conditions and customer demands. By being affective, the company can build strong relationships with customers, differentiate itself from competitors, and increase customer loyalty and retention.</span>
                   </p>
 
@@ -340,7 +340,7 @@
           <!-- products heading -->
           <div class="row">
             <div class="col">
-              <h2 class="text-center">What we offer</h2>              
+              <h2 class="text-center" id="productHeading">What We Offer</h2>              
             </div>
           </div>
 
@@ -353,7 +353,7 @@
               <!-- agricultural heading -->
               <div class="row">
                 <div class="col">
-                  <h4 class="text-center">Agricultural products</h4>
+                  <h4 class="text-center" id="productAgriHeading">Agricultural Products</h4>
                   <hr>  
                 </div>
               </div>
@@ -369,8 +369,8 @@
                       <img src="./assets/products/agricultural/honey.jpg" loading="lazy" class="card-img-top" alt="Honey in a bottle">
                     </div>
                     <div class="card-body">
-                      <h5>Natural Wild Honey</h5>
-                      <p class="card-text">Indonesia is known for its diverse flora and fauna, which produces a wide range of natural wild honey.
+                      <h5 id="productHoneyHeading">Natural Wild Honey</h5>
+                      <p class="card-text" id="productHoney">Indonesia is known for its diverse flora and fauna, which produces a wide range of natural wild honey.
                         <span style="display: none;">It is harvested from forests and other natural habitats, and are known for their unique flavors and health benefits. Indonesian natural wild honeys include varieties such as honey from the Riau rainforest, Java jungle honey, and Tualang honey from North Sumatra.</span>
                       </p>
                       <a class="accent-pointer read-more-button">Read More</a>
@@ -384,8 +384,8 @@
                       <img src="./assets/products/agricultural/potato.jpg" loading="lazy" class="card-img-top" alt="...">
                     </div>
                     <div class="card-body">
-                      <h5>Potato</h5>
-                      <p class="card-text">Indonesian potatoes are known for their high quality and are in high demand both domestically and internationally.
+                      <h5 id="productPotatoHeading">Potato</h5>
+                      <p class="card-text" id="productPotato">Indonesian potatoes are known for their high quality and are in high demand both domestically and internationally.
                         <span style="display: none;">It has variety of potatoes, including large and small sized potatoes, which are used in a variety of dishes such as french fries, mashed potatoes, and potato chips.</span>
                       </p>
                       <a class="accent-pointer read-more-button">Read More</a>
@@ -403,8 +403,8 @@
                       <img src="./assets/products/agricultural/robusta.jpg" loading="lazy" class="card-img-top" alt="...">
                     </div>
                     <div class="card-body">
-                      <h5>Robusta and Arabica (Temanggung Coffee)</h5>
-                      <p class="card-text">Indonesia is one of the largest producers of coffee in the world, and is known for its high-quality Robusta and Arabica beans. 
+                      <h5 id="productCoffeeHeading">Robusta and Arabica (Temanggung Coffee)</h5>
+                      <p class="card-text" id="productCoffee">Indonesia is one of the largest producers of coffee in the world, and is known for its high-quality Robusta and Arabica beans. 
                         <span style="display: none;">Temanggung, located in Central Java, is a region that produces some of the best coffee in Indonesia. Temanggung coffee has a unique taste and aroma, and is highly sought after by coffee connoisseurs.</span>
                       </p>
                       <a class="accent-pointer read-more-button">Read More</a>
@@ -418,8 +418,8 @@
                       <img src="./assets/products/agricultural/sweet-corn.jpg" loading="lazy" class="card-img-top" alt="...">
                     </div>
                     <div class="card-body">
-                      <h5>Sweet Corn</h5>
-                      <p class="card-text">Indonesian sweet corn is a popular snack and cooking ingredient, known for its sweet and juicy taste. 
+                      <h5 id="productCornHeading">Sweet Corn</h5>
+                      <p class="card-text" id="productCorn">Indonesian sweet corn is a popular snack and cooking ingredient, known for its sweet and juicy taste. 
                         <span style="display: none;">It is grown in many regions of the country and is available both fresh and frozen. It is a versatile ingredient used in a variety of dishes such as soup, salad, and as a side dish.</span>
                       </p>
                       <a class="accent-pointer read-more-button">Read More</a>
@@ -437,8 +437,8 @@
                       <img src="./assets/products/agricultural/spices.jpg" loading="lazy" class="card-img-top" alt="...">
                     </div>
                     <div class="card-body">
-                      <h5>Spices</h5>
-                      <p class="card-text">Indonesia is a land of spices, and produces a wide variety of high-quality spices, such as nutmeg, cinnamon, cloves, and turmeric. 
+                      <h5 id="productSpicesHeading">Spices</h5>
+                      <p class="card-text" id="productSpices">Indonesia is a land of spices, and produces a wide variety of high-quality spices, such as nutmeg, cinnamon, cloves, and turmeric. 
                         <span style="display: none;">They are known for their unique flavors and aroma, and are used in many international cuisines. These spices are also widely used in traditional Indonesian dishes, such as rendang, sate, and gulai.</span>
                       </p>
                       <a class="accent-pointer read-more-button">Read More</a>
@@ -452,8 +452,8 @@
                       <img src="./assets/products/manufacture/fertilizer.jpg" loading="lazy" class="card-img-top" alt="...">
                     </div>
                     <div class="card-body">
-                      <h5>Fertilizer, Decomposer, & Pesticide</h5>
-                      <p class="card-text">Our fertilizers, pesticides, and decomposers that orignially from Indonesia have been found to be effective in improving soil fertility, controlling pests, and enhancing crop yields. 
+                      <h5 id="productFertilizerHeading">Fertilizer, Decomposer, & Pesticide</h5>
+                      <p class="card-text" id="productFertilizer">Our fertilizers, pesticides, and decomposers that originally from Indonesia have been found to be effective in improving soil fertility, controlling pests, and enhancing crop yields. 
                         <span style="display: none;">However, their effectiveness depends on various factors, and farmers need to use them in conjunction with good farming practices to achieve the best results.</span>
                       </p>
                       <a class="accent-pointer read-more-button">Read More</a>
@@ -473,7 +473,7 @@
               <!-- manufacture heading -->
               <div class="row">
                 <div class="col">
-                  <h4 class="text-center">Manufacture products</h4>
+                  <h4 class="text-center" id="productManuHeading">Manufacture Products</h4>
                   <hr>  
                 </div>
               </div>
@@ -490,8 +490,8 @@
                       <img src="./assets/products/manufacture/pillow.jpg" loading="lazy" class="card-img-top" alt="...">
                     </div>
                     <div class="card-body">
-                      <h5>Pillows, Bolsters, Towels, and other textile products</h5>
-                      <p class="card-text">Indonesia has a thriving textile industry that produces a wide range of products such as pillows, bolsters, towels, and other home textiles. 
+                      <h5 id="productPillowHeading">Pillows, Bolsters, Towels, and other textile products</h5>
+                      <p class="card-text" id="productPillow">Indonesia has a thriving textile industry that produces a wide range of products such as pillows, bolsters, towels, and other home textiles. 
                         <span style="display: none;">These products are known for their high quality and beautiful designs, and are made from natural fibers such as cotton, silk, and linen. Indonesian textiles are popular both domestically and internationally.</span>
                       </p>
                       <a class="accent-pointer read-more-button">Read More</a>
@@ -505,8 +505,8 @@
                       <img src="./assets/products/manufacture/frozen-chicken.jpg" loading="lazy" class="card-img-top" alt="...">
                     </div>
                     <div class="card-body">
-                      <h5>Halal Frozen Chicken</h5>
-                      <p class="card-text">Indonesia is one of the largest producers of halal chicken in the world, and exports to many countries around the globe. 
+                      <h5 id="productChickenHeading">Halal Frozen Chicken</h5>
+                      <p class="card-text" id="productChicken">Indonesia is one of the largest producers of halal chicken in the world, and exports to many countries around the globe. 
                         <span style="display: none;">Indonesian halal frozen chicken is known for its high quality and strict adherence to halal standards. The chickens are raised in a natural environment and are free from any artificial hormones or antibiotics.</span>
                       </p>
                       <a class="accent-pointer read-more-button">Read More</a>
@@ -524,8 +524,8 @@
                       <img src="./assets/products/manufacture/scented-candle.jpg" loading="lazy" class="card-img-top" alt="...">
                     </div>
                     <div class="card-body">
-                      <h5>Homemade Scented Candles</h5>
-                      <p class="card-text">Indonesian scented candles are handcrafted and made from natural materials such as soy wax and essential oils. 
+                      <h5 id="productCandleHeading">Homemade Scented Candles</h5>
+                      <p class="card-text" id="productCandle">Indonesian scented candles are handcrafted and made from natural materials such as soy wax and essential oils. 
                         <span style="display: none;">These candles come in a wide range of scents such as vanilla, lavender, and citrus, and are known for their long-lasting fragrance and beautiful packaging. They make a perfect gift or decoration for any occasion.</span>
                       </p>
                       <a class="accent-pointer read-more-button">Read More</a>
@@ -539,8 +539,8 @@
                       <img src="./assets/products/manufacture/sawdust.jpg" loading="lazy" class="card-img-top" alt="...">
                     </div>
                     <div class="card-body">
-                      <h5>Sawdust and Shisha Briquette</h5>
-                      <p class="card-text">Indonesia produces high-quality sawdust and shisha briquettes made from natural materials such as coconut shell and wood chips.  
+                      <h5 id="productSawdustHeading">Sawdust and Shisha Briquette</h5>
+                      <p class="card-text" id="productSawdust">Indonesia produces high-quality sawdust and shisha briquettes made from natural materials such as coconut shell and wood chips.  
                         <span style="display: none;">These briquettes are used for grilling and smoking food, and are known for their high heat output and long burning time. They are a popular choice among barbeque enthusiasts and are exported to many countries around the world.</span>
                       </p>
                       <a class="accent-pointer read-more-button">Read More</a>
@@ -558,8 +558,8 @@
                       <img src="./assets/products/manufacture/bodycare.jpg" loading="lazy" class="card-img-top" alt="...">
                     </div>
                     <div class="card-body">
-                      <h5>Cosmetics & Body Care</h5>
-                      <p class="card-text">Indonesia has a rich tradition of using natural ingredients for cosmetic and body care products. 
+                      <h5 id="ProductCosmeticHeading">Cosmetics & Body Care</h5>
+                      <p class="card-text" id="productCosmetic">Indonesia has a rich tradition of using natural ingredients for cosmetic and body care products. 
                         <span style="display: none;">Many Indonesian cosmetic and body care products are made from natural materials such as coconut oil, honey, and rice flour. These products are known for their effectiveness and are often used in spas and salons around the world.</span>
                       </p>
                       <a class="accent-pointer read-more-button">Read More</a>
@@ -573,8 +573,8 @@
                       <img src="./assets/products/manufacture/ceramics.jpg" loading="lazy" class="card-img-top" alt="...">
                     </div>
                     <div class="card-body">
-                      <h5>Ceramics</h5>
-                      <p class="card-text">Indonesian ceramics are known for their unique designs and beautiful craftsmanship. 
+                      <h5 id="productCeramicHeading">Ceramics</h5>
+                      <p class="card-text" id="productCeramic">Indonesian ceramics are known for their unique designs and beautiful craftsmanship. 
                         <span style="display: none;">They are made from natural materials such as clay and are available in a wide range of shapes and sizes. Indonesian ceramics are popular both domestically and internationally, and are often used as decorative items or for serving food and drinks.</span>
                       </p>
                       <a class="accent-pointer read-more-button">Read More</a>
@@ -602,7 +602,7 @@
           <!-- partners heading -->
           <div class="row">
             <div class="col">
-              <h2 class="text-center text-dark mb-5">Our Partners</h2>
+              <h2 class="text-center text-dark mb-5" id="partnerHeading">Our Partners</h2>
             </div>
           </div>
           
@@ -817,7 +817,7 @@
           <!-- why us heading -->
           <div class="row">
             <div class="col">
-              <h2 class="text-center text-light mb-5">Why Us</h2>
+              <h2 class="text-center text-light mb-5" id="whyHeading">Why Us</h2>
             </div>
           </div>
           
@@ -832,10 +832,10 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" fill="currentColor" class="bi bi-box-seam" viewBox="0 0 16 16">
                       <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/>
                     </svg>
-                    <h3 class="d-inline-flex">Quality Products</h3>
+                    <h3 class="d-inline-flex" id="whyQualityHeading">Quality Products</h3>
                   </div>    
 
-                  <p class="value-text text-secondary">We offer a wide range of high-quality products sourced from trusted suppliers around the world.
+                  <p class="value-text text-secondary" id="whyQuality">We offer a wide range of high-quality products sourced from trusted suppliers around the world.
                     <span style="display: none;">Our products undergo rigorous quality control measures to ensure that they meet the highest standards of excellence, giving our customers peace of mind and confidence in their purchases.</span>
                   </p> 
 
@@ -857,10 +857,10 @@
                       <path d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z"/>
                       <path d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"/>
                     </svg>
-                    <h3 class="d-inline-flex">Competitive</h3>
-                    <h3 class="d-inline-flex">Pricing</h3>
+                    <h3 class="d-inline-flex" id="whyPricingHeading1">Competitive</h3>
+                    <h3 class="d-inline-flex" id="whyPricingHeading2">Pricing</h3>
                   </div>
-                  <p class="card-text text-secondary">We strive to offer our customers the most competitive pricing possible, without compromising on quality or service.
+                  <p class="card-text text-secondary" id="whyPricing">We strive to offer our customers the most competitive pricing possible, without compromising on quality or service.
                     <span style="display: none;">Our extensive network of suppliers and partners enables us to negotiate favorable terms, which we pass on to our customers, allowing them to achieve cost savings and maximize their profitability.</span>
                   </p>
                   
@@ -882,10 +882,10 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" fill="currentColor" class="bi bi-telephone-inbound" viewBox="0 0 16 16">
                       <path d="M15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0zm-12.2 1.182a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
                     </svg>
-                    <h3 class="d-inline-flex">Exceptional</h3>
-                    <h3 class="d-inline-flex">Customer Service</h3>
+                    <h3 class="d-inline-flex" id="whyCsHeading1">Exceptional</h3>
+                    <h3 class="d-inline-flex" id="whyCsHeading2">Customer Service</h3>
                   </div>
-                  <p class="card-text text-secondary">Our team of experienced professionals is dedicated to providing exceptional customer service and support at every stage of the transaction.
+                  <p class="card-text text-secondary" id="whyCs">Our team of experienced professionals is dedicated to providing exceptional customer service and support at every stage of the transaction.
                     <span style="display: none;">We work closely with our customers to understand their unique needs and requirements, and we tailor our services to meet their specific demands. Our goal is to exceed our customers' expectations and ensure their complete satisfaction.</span>
                   </p>
 
@@ -907,9 +907,9 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
                       <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
                     </svg>
-                    <h3 class="d-inline-flex">Global Reach</h3>
+                    <h3 class="d-inline-flex" id="whyGlobalHeading">Global Reach</h3>
                   </div>
-                  <p class="card-text text-secondary">We have a global network of suppliers and partners, which enables us to offer our customers access to a wide range of products and markets.
+                  <p class="card-text text-secondary" id="whyGlobal">We have a global network of suppliers and partners, which enables us to offer our customers access to a wide range of products and markets.
                     <span style="display: none;">Whether our customers are looking to source products from a specific region or expand their business to new markets, we have the expertise and resources to help them achieve their goals. Our global reach also means that we can provide our customers with the latest market trends and insights, giving them a competitive edge in the industry.</span>
                   </p>
 
@@ -974,8 +974,8 @@
 
           <!-- about -->
           <div class="col-lg-6 col-xl-4 col-sm-12 mb-2">
-            <h4>About us</h4>
-            <p>We are CV. Cakra Anagata Gemilang is a company that can provide for all your needs to help grow your company. We are sure of our people's quality and experiences that can make huge benefits for our business partners worldwide.
+            <h4 id="footerAboutHeading">About us</h4>
+            <p id="footerAbout">We are CV. Cakra Anagata Gemilang is a company that can provide for all your needs to help grow your company. We are sure of our people's quality and experiences that can make huge benefits for our business partners worldwide.
 
               As our motto to be a number one provider, we are highly determined to work with huge professionalism. Hence, we always try our best to satisfy our business partners.</p>
           </div>
@@ -999,7 +999,7 @@
             <!-- address -->
             <div class="row">
               <div class="col mt-2">
-                <a class="accent-pointer" onclick="showMenu" type="button" data-toggle="collapse" data-target="#footer-address" aria-controls="toggler" aria-expanded="false" aria-label="Toggle navigation">
+                <a id="footerAddress" class="accent-pointer" onclick="showMenu" type="button" data-toggle="collapse" data-target="#footer-address" aria-controls="toggler" aria-expanded="false" aria-label="Toggle navigation">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
                     <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"/>
                   </svg>  address
