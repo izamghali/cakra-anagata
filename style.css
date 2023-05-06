@@ -370,32 +370,9 @@ html {
         min-height: 140vh;
     }
     
-    .partners-card-row1 {
-        /* border-block: solid black; */
-    }
-    
     .partners-card-row2 {
-        /* border: solid red; */
         margin-top: 1em;
         top: 0%;
-    }
-
-    .autoplay-scroll-lefty-1 {
-        animation: none;
-    }
-    
-    .autoplay-scroll-lefty-2 {
-        animation: none;
-        display: none;
-    }
-
-    .autoplay-scroll-righty-1 {
-        animation: none;
-    }
-
-    .autoplay-scroll-righty-2 {
-        animation: none;
-        display: none;
     }
 
     #ctaWhatsApp {
@@ -408,15 +385,15 @@ html {
         width: 1.5rem;
     }
 
+    #carousel {
+        display: none;
+    }
+
 }
 
 @media only screen and (max-width: 375px) {
     .partners-row {
         min-height: 180vh;
-    }
-    
-    .partners-card-row1 {
-        /* border-block: solid black; */
     }
     
     .partners-card-row2 {
@@ -425,21 +402,4 @@ html {
         top: 0%;
     }
 
-    .autoplay-scroll-lefty-1 {
-        animation: none;
-    }
-    
-    .autoplay-scroll-lefty-2 {
-        animation: none;
-        display: none;
-    }
-
-    .autoplay-scroll-righty-1 {
-        animation: none;
-    }
-
-    .autoplay-scroll-righty-2 {
-        animation: none;
-        display: none;
-    }
 }
