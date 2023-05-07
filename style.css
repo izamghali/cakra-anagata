@@ -124,9 +124,6 @@ html {
 }
 
 /* product */
-.product-card {
-    height: 23em;
-}
 
 .zoom-wrapper {
     overflow: hidden;
@@ -300,33 +297,27 @@ html {
     width: 5rem;
 }
 
-
-@media only screen and (min-width: 1440px) {
-    /* padding-inline: 10em */
-    .navbar, .about-company-col, .company-values-row, .why-us-row, .footer-col {
-        /* padding-inline: 10em; */
-    }
-}
-
 @media only screen and (min-width: 1024px) {
     #ctaWhatsApp {
         padding: 1.5rem 1.5rem 2rem;
         font-size: medium;
     }
+
+    #partners {
+        /* min-height: 110vh; */
+    }
     
     #ctaWhatsApp img {
         width: 3rem;
     }
+
 }
 
 @media only screen and (max-width: 768px) {
     .partners-row {
         min-height: 100vh;
     }
-    
-    .partners-card-row1 {
-    }
-    
+
     .partners-card-row2 {
         margin-top: 1em;
         top: 0%;
@@ -340,16 +331,16 @@ html {
         animation: none;
         display: none;
     }
-
+    
     .autoplay-scroll-righty-1 {
         animation: none;
     }
-
+    
     .autoplay-scroll-righty-2 {
         animation: none;
         display: none;
     }
-
+    
     #ctaWhatsApp {
         padding: 1.5rem 1rem 1.5rem;
         font-size: medium;
@@ -363,12 +354,14 @@ html {
     #carousel {
         display: none;
     }
+
+    #partners {
+        min-height: 110vh;
+    }
+
 }
 
 @media only screen and (max-width: 425px) {
-    .product-card {
-        height: auto !important;
-    }
 
     .partners-row {
         min-height: 140vh;
@@ -387,6 +380,14 @@ html {
     
     #ctaWhatsApp img {
         width: 1.5rem;
+    }
+    
+    #partners {
+        min-height: 160vh;
+    }
+
+    .product-card {
+        width: 40.5rem !important;
     }
 
 }

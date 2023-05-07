@@ -125,7 +125,7 @@ let productCosmetic = document.getElementById('productCosmetic');
 let productCeramicHeading = document.getElementById('productCeramicHeading');
 let productCeramic = document.getElementById('productCeramic');
 
-// ceramics
+// wooden product
 let productWoodenHeading = document.getElementById('productWoodenHeading');
 let productWooden = document.getElementById('productWooden');
 
@@ -218,7 +218,7 @@ function defaultLanguage() {
   productSpices.innerHTML = 'Indonesia is a land of spices, and produces a wide variety of high-quality spices, such as nutmeg, cinnamon, cloves, and turmeric.\
                           <span style="display: none;">They are known for their unique flavors and aroma, and are used in many international cuisines. These spices are also widely used in traditional Indonesian dishes, such as rendang, sate, and gulai.</span>'
 
-  productFertilizerHeading = 'Fertilizer, Decomposer, & Pesticide';
+  productFertilizerHeading.innerHTML = 'Fertilizer, Decomposer, & Pesticide';
   productFertilizer.innerHTML = 'Our fertilizers, pesticides, and decomposers that originally from Indonesia have been found to be effective in improving soil fertility, controlling pests, and enhancing crop yields.\
                         <span style="display: none;">However, their effectiveness depends on various factors, and farmers need to use them in conjunction with good farming practices to achieve the best results.</span>';
 
@@ -245,6 +245,10 @@ function defaultLanguage() {
   productCeramicHeading.innerHTML = 'Ceramics';
   productCeramic.innerHTML = 'Indonesian ceramics are known for their unique designs and beautiful craftsmanship.\
   <span style="display: none;">They are made from natural materials such as clay and are available in a wide range of shapes and sizes. Indonesian ceramics are popular both domestically and internationally, and are often used as decorative items or for serving food and drinks.</span>';
+
+  productWoodenHeading.innerHTML = 'Wooden Product';
+  productWooden.innerHTML = 'Indonesia is renowned for its production of high-quality wooden products, ranging from parquet flooring and wooden doors to ceilings, tables, and various other types of furniture.\
+  <span style="display: none;">These products are crafted using locally sourced wood, such as teak, mahogany, and rosewood, known for their durability and aesthetic appeal. Indonesian artisans and craftsmen employ traditional techniques alongside modern technology to create exquisite wooden pieces that cater to diverse design preferences. Overall, Indonesian wooden products, such as parquet, wooden doors, wooden ceilings, tables, and furniture, embody a harmonious blend of craftsmanship, natural materials, and design, contributing to the country\'s reputation as a hub for exquisite wooden creations.</span>'
 
   // partner
   partnerHeading.innerHTML = 'Our Partners';
@@ -344,7 +348,7 @@ function translateBahasa() {
   productSpices.innerHTML = 'Indonesia adalah tanah rempah-rempah yang menghasilkan beraneka rempah berkualitas tinggi, seperti pala, kayu manis, cengkeh, dan kunyit.\
                           <span style="display: none;">Dikenal karena rasa dan aromanya yang unik, dan digunakan di banyak masakan internasional, bumbunya digunakan dalam masakan tradisional Indonesia seperti rendang, sate, dan gulai.</span>'
 
-  productFertilizerHeading = 'Pupuk, Dekomposer, & Pestisida';
+  productFertilizerHeading.innerHTML = 'Pupuk, Dekomposer, & Pestisida';
   productFertilizer.innerHTML = 'Pupuk, pestisida, dan dekomposer Indonesia terbukti efektif dalam meningkatkan kesuburan tanah, mengendalikan hama, dan meningkatkan hasil panen.\
                         <span style="display: none;">Keefektifannya bergantung pada berbagai faktor, dan petani perlu menggunakannya dalam pertanian yang baik untuk mencapai hasil terbaik.</span>';
 
@@ -371,9 +375,13 @@ function translateBahasa() {
   productCeramicHeading.innerHTML = 'Keramik';
   productCeramic.innerHTML = 'Keramik Indonesia dikenal dengan desainnya yang unik dan pengerjaan yang indah.\
   <span style="display: none;">Terbuat dari bahan alami seperti tanah liat dan tersedia dalam berbagai bentuk dan ukuran, keramik Indonesia populer baik dalam negeri maupun internasional, dan sering digunakan sebagai dekorasi atau sajian makanan dan minuman.</span>';
+
+  productWoodenHeading.innerHTML = 'Produk Kayu';
+  productWooden.innerHTML = 'Indonesia terkenal dengan produksi produk kayu berkualitas tinggi, seperti lantai parket, pintu kayu, plafon, meja, dan furnitur.\
+  <span style="display: none;">Pengrajin menggunakan teknik tradisional untuk membuat karya indah yang sesuai dengan preferensi desain yang beragam. Produk kayu Indonesia mewujudkan perpaduan harmonis antara keahlian, bahan alami, dan desain, berkontribusi pada reputasi negara sebagai pusat kreasi kayu yang indah.</span>';
   
   // partner
-  partnerHeading.innerHTML = 'Partner Kami'
+  partnerHeading.innerHTML = 'Partner Kami';
 
   // why us
   whyHeading.innerHTML = 'Mengapa Kami';
@@ -469,7 +477,7 @@ function translateSpanish() {
   productSpices.innerHTML = 'Indonesia es una tierra de especias y produce una amplia variedad de especias de alta calidad, como la nuez moscada, la canela, el clavo y la cúrcuma.\
                           <span style="display: none;"> Son conocidos por sus sabores y aromas únicos, y se utilizan en muchas cocinas internacionales. Estas especias también se usan ampliamente en platos tradicionales de Indonesia, como rendang, sate y gulai.</span>'
 
-  productFertilizerHeading = 'Fertilizante, descomponedor y pesticida';
+  productFertilizerHeading.innerHTML = 'Fertilizante, descomponedor y pesticida';
   productFertilizer.innerHTML = 'Se ha descubierto que nuestros fertilizantes, pesticidas y descomponedores que se originaron en Indonesia son efectivos para mejorar la fertilidad del suelo, controlar plagas y mejorar el rendimiento de los cultivos.\
                         <span style="display: none;"> Sin embargo, su efectividad depende de varios factores, y los agricultores deben usarlos junto con buenas prácticas agrícolas para lograr los mejores resultados.</span>';
 
@@ -496,6 +504,10 @@ function translateSpanish() {
   productCeramicHeading.innerHTML = 'Cerámica';
   productCeramic.innerHTML = 'La cerámica de Indonesia es conocida por sus diseños únicos y su hermosa artesanía.\
   <span style="display: none;"> Están hechos de materiales naturales como la arcilla y están disponibles en una amplia gama de formas y tamaños. La cerámica indonesia es popular tanto a nivel nacional como internacional y, a menudo, se usa como elemento decorativo o para servir comidas y bebidas.</span>';
+
+  productWoodenHeading.innerHTML = 'Producto de madera';
+  productWooden.innerHTML = 'Indonesia es conocida por su producción de productos de madera de alta calidad, como pisos de parquet, puertas, techos, mesas y muebles de madera.\
+  <span style="display: none;">Los artesanos utilizan técnicas tradicionales para crear piezas exquisitas que se adaptan a diversas preferencias de diseño. Los productos de madera de Indonesia representan una combinación armoniosa de artesanía, materiales naturales y diseño, lo que contribuye a la reputación del país como centro de exquisitas creaciones en madera.</span>'
 
   // partner
   partnerHeading.innerHTML = 'Nuestros compañeros';
@@ -594,7 +606,7 @@ function translateChinese() {
   productSpices.innerHTML = '印度尼西亚是香料之乡，盛产肉豆蔻、肉桂、丁香和姜黄等多种优质香料。\
                           <span style="display: none;">它们以其独特的风味和香气而闻名，被用于许多国际美食中。 这些香料也广泛用于印尼传统菜肴，如仁当、沙爹和古来。</span>'
 
-  productFertilizerHeading = '肥料、分解剂和杀虫剂';
+  productFertilizerHeading.innerHTML = '肥料、分解剂和杀虫剂';
   productFertilizer.innerHTML = '我们的化肥、杀虫剂和分解剂原产于印度尼西亚，已被发现可有效改善土壤肥力、控制害虫和提高作物产量。\
                         <span style="display: none;">然而，它们的有效性取决于多种因素，农民需要将它们与良好的耕作方法结合使用才能取得最佳效果。</span>';
 
@@ -621,6 +633,10 @@ function translateChinese() {
   productCeramicHeading.innerHTML = '陶瓷';
   productCeramic.innerHTML = '印度尼西亚陶瓷以其独特的设计和精美的工艺而闻名。\
   <span style="display: none;">它们由粘土等天然材料制成，有多种形状和尺寸可供选择。 印尼陶瓷在国内外都很受欢迎，经常被用作装饰品或盛装食物和饮料。</span>';
+
+  productWoodenHeading.innerHTML = '木制品';
+  productWooden.innerHTML = '印度尼西亚以生产高品质木制品而闻名，例如镶木地板、木门、天花板、桌子和家具。\
+  <span style="display: none;">工匠们使用传统技术创造出迎合不同设计偏好的精美作品。 印度尼西亚的木制品体现了工艺、天然材料和设计的和谐融合，为该国赢得了精美木制品中心的美誉。</span>'
 
   // partner
   partnerHeading.innerHTML = '我们的伙伴';
@@ -720,7 +736,7 @@ function translateFrench() {
   productSpices.innerHTML = 'L\'Indonésie est une terre d\'épices et produit une grande variété d\'épices de haute qualité, telles que la muscade, la cannelle, les clous de girofle et le curcuma.\
                           <span style="display: none;">Ils sont connus pour leurs saveurs et leurs arômes uniques et sont utilisés dans de nombreuses cuisines internationales. Ces épices sont également largement utilisées dans les plats traditionnels indonésiens, tels que le rendang, le sate et le gulai.</span>'
 
-  productFertilizerHeading = 'Engrais, décomposeur et pesticide';
+  productFertilizerHeading.innerHTML = 'Engrais, décomposeur et pesticide';
   productFertilizer.innerHTML = 'Nos engrais, pesticides et décomposeurs originaires d\'Indonésie se sont avérés efficaces pour améliorer la fertilité des sols, lutter contre les ravageurs et améliorer les rendements des cultures.\
                         <span style="display: none;">Cependant, leur efficacité dépend de divers facteurs et les agriculteurs doivent les utiliser en conjonction avec de bonnes pratiques agricoles pour obtenir les meilleurs résultats.</span>';
 
@@ -747,6 +763,10 @@ function translateFrench() {
   productCeramicHeading.innerHTML = 'Céramique';
   productCeramic.innerHTML = 'La céramique indonésienne est connue pour ses designs uniques et son magnifique savoir-faire.\
   <span style="display: none;">Ils sont fabriqués à partir de matériaux naturels tels que l\'argile et sont disponibles dans une large gamme de formes et de tailles. Les céramiques indonésiennes sont populaires à la fois au niveau national et international et sont souvent utilisées comme objets de décoration ou pour servir de la nourriture et des boissons.</span>';
+
+  productWoodenHeading.innerHTML = 'Produit en bois';
+  productWooden.innerHTML = 'L\'Indonésie est réputée pour sa production de produits en bois de haute qualité, tels que les parquets, les portes en bois, les plafonds, les tables et les meubles.\
+  <span style="display: none;">Les artisans utilisent des techniques traditionnelles pour créer des pièces exquises qui répondent à diverses préférences de conception. Les produits en bois indonésiens incarnent un mélange harmonieux d\'artisanat, de matériaux naturels et de design, contribuant à la réputation du pays en tant que plaque tournante des créations en bois exquises.</span>'
 
   // partner
   partnerHeading.innerHTML = 'Nos partenaires';
