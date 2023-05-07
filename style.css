@@ -359,6 +359,10 @@ html {
     #ctaWhatsApp img {
         width: 2rem;
     }
+
+    #carousel {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 425px) {
@@ -383,10 +387,6 @@ html {
     
     #ctaWhatsApp img {
         width: 1.5rem;
-    }
-
-    #carousel {
-        display: none;
     }
 
 }

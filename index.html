@@ -346,7 +346,7 @@
           </div>
 
           <!-- product cards -->
-          <div class="row">
+          <div class="row" id="productCards">
 
             <!-- agricultural products -->
             <div class="col d-flex-inline">
@@ -360,7 +360,7 @@
               </div>
               
               <!-- agricultural cards -->
-              <div class="row">
+              <div class="row" id="agriCol">
                 <!-- agricultural card row 1 -->
                 <div class="col d-flex justify-content-around flex-sm-nowrap">
 
@@ -433,7 +433,7 @@
                 <div class="col d-flex justify-content-around mt-4 flex-sm-nowrap">
 
                   <!-- spices -->
-                  <div class="card product-card" style="width: 18rem;">
+                  <div class="card product-card" style="width: 40.5rem;">
                     <div class="zoom-wrapper">
                       <img src="./assets/products/agricultural/spices.jpg" loading="lazy" class="card-img-top" alt="...">
                     </div>
@@ -446,9 +446,14 @@
                       <a class="accent-pointer read-less-button"style="display: none;">Read Less</a>
                     </div>
                   </div>
-    
+
+                </div>
+
+                <!-- agriculture card row 4 -->
+                <div class="col d-flex justify-content-around mt-4 flex-sm-nowrap">
+
                   <!-- fertilizer (manufacture) -->
-                  <div class="card product-card" style="width: 18rem; height: 25rem;">
+                  <div class="card product-card" style="width: 40.5rem;">
                     <div class="zoom-wrapper">
                       <img src="./assets/products/manufacture/fertilizer.jpg" loading="lazy" class="card-img-top" alt="...">
                     </div>
@@ -480,7 +485,7 @@
               </div>
               
               <!-- manufacture cards -->
-              <div class="row">
+              <div class="row" id="manuCol">
 
                 <!-- manufacture card row 1 -->
                 <div class="col d-flex justify-content-around">
@@ -577,6 +582,25 @@
                       <h5 id="productCeramicHeading">Ceramics</h5>
                       <p class="card-text" id="productCeramic">Indonesian ceramics are known for their unique designs and beautiful craftsmanship. 
                         <span style="display: none;">They are made from natural materials such as clay and are available in a wide range of shapes and sizes. Indonesian ceramics are popular both domestically and internationally, and are often used as decorative items or for serving food and drinks.</span>
+                      </p>
+                      <a class="accent-pointer read-more-button">Read More</a>
+                      <a class="accent-pointer read-less-button"style="display: none;">Read Less</a>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- manufacture card row 4 -->
+                <div class="col d-flex justify-content-around mt-4">
+    
+                  <!-- wooden product -->
+                  <div class="card product-card" style="width: 40.5rem;">
+                    <div class="zoom-wrapper">
+                      <img src="./assets/products/manufacture/wooden-furniture.jpg" loading="lazy" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 id="productWoodenHeading">Wooden Product</h5>
+                      <p class="card-text" id="productWooden">Indonesia is renowned for its production of high-quality wooden products, ranging from parquet flooring and wooden doors to ceilings, tables, and various other types of furniture. 
+                        <span style="display: none;">These products are crafted using locally sourced wood, such as teak, mahogany, and rosewood, known for their durability and aesthetic appeal. Indonesian artisans and craftsmen employ traditional techniques alongside modern technology to create exquisite wooden pieces that cater to diverse design preferences. Overall, Indonesian wooden products, such as parquet, wooden doors, wooden ceilings, tables, and furniture, embody a harmonious blend of craftsmanship, natural materials, and design, contributing to the country's reputation as a hub for exquisite wooden creations.</span>
                       </p>
                       <a class="accent-pointer read-more-button">Read More</a>
                       <a class="accent-pointer read-less-button"style="display: none;">Read Less</a>
@@ -1053,6 +1077,9 @@
 
     <!-- Main JavaScript -->
     <script src="./script.js"></script>
+
+    <!-- Layout -->
+    <script src="./layout-product.js"></script>
 
 
   </body>

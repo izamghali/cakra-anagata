@@ -125,6 +125,10 @@ let productCosmetic = document.getElementById('productCosmetic');
 let productCeramicHeading = document.getElementById('productCeramicHeading');
 let productCeramic = document.getElementById('productCeramic');
 
+// ceramics
+let productWoodenHeading = document.getElementById('productWoodenHeading');
+let productWooden = document.getElementById('productWooden');
+
 // partner
 let partnerHeading = document.getElementById('partnerHeading');
 
