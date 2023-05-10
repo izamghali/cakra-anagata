@@ -59,7 +59,7 @@
 
           <!-- partners -->
           <li class="nav-item ml-5">
-              <a class="nav-link text-hover-accent" href="#partners" id="navbarListPartners">Partners</a>
+              <a class="nav-link text-hover-accent" href="#partnerHeading" id="navbarListPartners">Partners</a>
           </li>
 
           <!-- language -->
@@ -128,7 +128,7 @@
     </div>
 
     <!-- container -->
-    <div class="container-fluid" data-bs-spy="scroll" data-bs-target="#mainNavbar" tabindex="0">
+    <div class="container-fluid overflow-x-hidden" data-bs-spy="scroll" data-bs-target="#mainNavbar" tabindex="0">
       
       <!-- cta -->
       <a class="position-sticky" href="https://wa.me/62895414186888" role="button" id="ctaWhatsApp" style="display: inline;">
@@ -364,7 +364,7 @@
 
                 <!-- honey -->
                 <div class="col d-flex justify-content-around flex-sm-nowrap">
-                  <div class="card product-card" style="width: 40.5rem; height: 25rem">
+                  <div class="card product-card mt-3" style="width: 40.5rem; height: 25rem">
                     <div class="zoom-wrapper">
                       <img src="./assets/products/agricultural/honey.jpg" loading="lazy" class="card-img-top" alt="Honey in a bottle">
                     </div>
@@ -532,26 +532,9 @@
                     </div>
                   </div>
                 </div>
-                
-                <!-- manufacture card row 3 -->
-                <div class="col d-flex justify-content-around flex-wrap mt-3">
 
-                  <!-- skincare -->
-                  <div class="card product-card" style="width: 18rem; height: 25rem;">
-                    <div class="zoom-wrapper">
-                      <img src="./assets/products/manufacture/bodycare.jpg" loading="lazy" class="card-img-top" alt="...">
-                    </div>
-                    <div class="card-body">
-                      <h5 id="ProductCosmeticHeading">Cosmetics & Body Care</h5>
-                      <p class="card-text" id="productCosmetic">Indonesia has a rich tradition of using natural ingredients for cosmetic and body care products. 
-                        <span style="display: none;">Many Indonesian cosmetic and body care products are made from natural materials such as coconut oil, honey, and rice flour. These products are known for their effectiveness and are often used in spas and salons around the world.</span>
-                      </p>
-                      <a class="accent-pointer read-more-button">Read More</a>
-                      <a class="accent-pointer read-less-button"style="display: none;">Read Less</a>
-                    </div>
-                  </div>
-    
-                  <!-- ceramics -->
+                <!-- ceramics -->
+                <div class="col d-flex justify-content-around flex-wrap mt-3">
                   <div class="card product-card" style="width: 18rem; height: 25rem;">
                     <div class="zoom-wrapper">
                       <img src="./assets/products/manufacture/ceramics.jpg" loading="lazy" class="card-img-top" alt="...">
@@ -565,6 +548,26 @@
                       <a class="accent-pointer read-less-button"style="display: none;">Read Less</a>
                     </div>
                   </div>
+                </div>
+                
+                
+                <!-- manufacture card row 3 -->
+                <div class="col d-flex justify-content-around flex-wrap mt-3">
+                  <!-- skincare -->
+                  <div class="card product-card mb-3" style="width: 18rem; height: 25rem;">
+                    <div class="zoom-wrapper">
+                      <img src="./assets/products/manufacture/bodycare.jpg" loading="lazy" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 id="ProductCosmeticHeading">Cosmetics & Body Care</h5>
+                      <p class="card-text" id="productCosmetic">Indonesia has a rich tradition of using natural ingredients for cosmetic and body care products. 
+                        <span style="display: none;">Many Indonesian cosmetic and body care products are made from natural materials such as coconut oil, honey, and rice flour. These products are known for their effectiveness and are often used in spas and salons around the world.</span>
+                      </p>
+                      <a class="accent-pointer read-more-button">Read More</a>
+                      <a class="accent-pointer read-less-button"style="display: none;">Read Less</a>
+                    </div>
+                  </div>
+  
                 </div>
                 
                 <!-- manufacture card row 4 -->
@@ -614,21 +617,22 @@
       </div>
 
       <hr>
+      
+      <!-- partners heading -->
+      <div class="row">
+        <div class="col">
+          <h2 class="text-center text-dark mb-5" id="partnerHeading">Our Partners</h2>
+        </div>
+      </div>
 
       <!-- partners -->
       <div class="row partners-row bg-white" id="partners">
         <div class="col">
 
-          <!-- partners heading -->
-          <div class="row">
-            <div class="col">
-              <h2 class="text-center text-dark mb-5" id="partnerHeading">Our Partners</h2>
-            </div>
-          </div>
           
           <!-- parnters cards row 1 -->
           
-          <div class="row flex-wrap d-flex-inline partners-card-row1 align-items-center autoplay-scroll-lefty-1 position-relative">
+          <div class="row flex-wrap d-flex-inline partners-card-row1 align-items-center autoplay-scroll-lefty-1 position-relative" id="partnersRow1">
 
             <!-- 24 royal bloom -->
             <div class="col">
@@ -666,14 +670,14 @@
             </div>
 
             <!-- DHL -->
-            <div class="col mt-3">
+            <div class="col">
               <div class="card partners-card d-flex align-items-center">
                 <img class="partners-card-img" src="./assets/partners/DHL.svg" />
               </div>
             </div>
 
             <!-- kemlu -->
-            <div class="col mt-3">
+            <div class="col mt-3 mr-4">
               <div class="card partners-card d-flex align-items-center">
                 <img class="partners-card-img" src="./assets/partners/kemlu.png" />
               </div>
@@ -681,7 +685,7 @@
             
           </div>
 
-          <div class="row flex-wrap d-flex-inline partners-card-row11 align-items-center autoplay-scroll-lefty-2 position-relative">
+          <div class="row flex-wrap d-flex-inline partners-card-row11 align-items-center autoplay-scroll-lefty-2 position-relative" id="partnersRow2">
 
             <!-- 24 royal bloom -->
             <div class="col">
@@ -719,14 +723,14 @@
             </div>
 
             <!-- DHL -->
-            <div class="col mt-3">
+            <div class="col">
               <div class="card partners-card d-flex align-items-center">
                 <img class="partners-card-img" src="./assets/partners/DHL.svg" />
               </div>
             </div>
 
             <!-- kemlu -->
-            <div class="col mt-3">
+            <div class="col mt-3 mr-4">
               <div class="card partners-card d-flex align-items-center">
                 <img class="partners-card-img" src="./assets/partners/kemlu.png" />
               </div>
@@ -735,7 +739,7 @@
           </div>
 
           <!-- parnters cards row 2 -->
-          <div class="row flex-wrap d-flex-inline partners-card-row2 align-items-center autoplay-scroll-righty-1 position-relative">
+          <div class="row flex-wrap d-flex-inline partners-card-row2 align-items-center autoplay-scroll-righty-1 position-relative" id="partnersRow3">
 
             <!-- evergreen -->
             <div class="col">
@@ -781,7 +785,7 @@
             
           </div>
 
-          <div class="row flex-wrap d-flex-inline partners-card-row22 align-items-center autoplay-scroll-righty-2 position-relative">
+          <div class="row flex-wrap d-flex-inline partners-card-row22 align-items-center autoplay-scroll-righty-2 position-relative" id="partnersRow4">
 
             <!-- evergreen -->
             <div class="col">
@@ -825,6 +829,188 @@
               </div>
             </div>
             
+          </div>
+
+        </div>
+      </div>
+      
+      <!-- partners tablet -->
+      <div class="row bg-white" style="display: none;" id="partnersTablet">
+        <div class="col">
+          
+          <!-- row 1 -->
+          <div class="row d-flex align-items-center">
+
+            <!-- kemenkumham -->
+            <div class="col">
+              <div class="card partners-card">
+                <img class="partners-card-img" src="./assets/partners/Kemenkumham.png" />
+              </div>
+            </div>
+
+            <!-- 24 royal bloom -->
+            <div class="col">
+              <div class="card partners-card align-items-center">
+                <img class="partners-card-img" src="./assets/partners/24-royal-bloom.jpg" style="border-radius: 10px;"/>
+              </div>
+            </div>
+
+            <!-- shipper -->
+            <div class="col">
+              <div class="card partners-card">
+                <img class="partners-card-img" src="https://logovtor.com/wp-content/uploads/2020/11/shipper-inc-logo-vector.png" />
+              </div>
+            </div>
+            
+            <!-- ASEI -->
+            <div class="col">
+              <div class="card partners-card">
+                <img class="partners-card-img" src="./assets/partners/ASEI.png" />
+              </div>
+            </div>
+          </div>
+          
+          <!-- row 2 -->
+          <div class="row mt-4 d-flex align-items-center">
+              
+            <!-- ASEPHI -->
+            <div class="col">
+              <div class="card partners-card">
+                <img class="partners-card-img" src="./assets/partners/ASEPHI.jpg" style="border-radius: 10px;"/>
+              </div>
+            </div>
+            
+            <!-- evergreen -->
+            <div class="col">
+              <div class="card partners-card">
+                <img class="partners-card-img" src="./assets/partners/Evergreen.svg" />
+              </div>
+            </div>
+
+            <!-- indonesian export channel -->
+            <div class="col">
+              <div class="card partners-card">
+                <img class="partners-card-img" src="./assets/partners/indonesian-export-channel-logo.png" />
+              </div>
+            </div>
+            
+            <!-- djp -->
+            <div class="col">
+              <div class="card partners-card">
+                <img class="partners-card-img" src="./assets/partners/djp.png" />
+              </div>
+            </div>
+
+          </div>
+
+          <!-- row 3 -->
+          <div class="row mt-4 d-flex align-items-center">
+
+            <!-- DHL -->
+            <div class="col">
+              <div class="card partners-card">
+                <img class="partners-card-img" src="./assets/partners/DHL.svg" />
+              </div>
+            </div>
+
+            <!-- kemlu -->
+            <div class="col mt-3">
+              <div class="card partners-card">
+                <img class="partners-card-img" src="./assets/partners/kemlu.png" />
+              </div>
+            </div>
+
+            <!-- oss -->
+            <div class="col">
+              <div class="card partners-card">
+                <img class="partners-card-img" src="./assets/partners/oss.svg" />
+              </div>
+            </div>
+            
+            <!-- kemendagri -->
+            <div class="col">
+              <div class="card partners-card">
+                <img class="partners-card-img" src="./assets/partners/kemendagri.svg" />
+              </div>
+            </div>
+
+            <!-- pt widodo unggas -->
+            <div class="col">
+              <div class="card partners-card">
+                <img class="partners-card-img" src="./assets/partners/pt-widodo-makmur-unggas-removebg-preview.png" />
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      
+      <!-- partners mobile -->
+      <div class="row bg-white mb-5" style="display: none;" id="partnersMobile">
+        <div class="col">
+
+          <!-- kemenkumham -->
+          <div class="col">
+            <div class="card partners-card d-flex align-items-center">
+              <img class="partners-card-img" src="./assets/partners/Kemenkumham.png" />
+            </div>
+          </div>
+
+          <!-- evergreen -->
+          <div class="col mt-4">
+            <div class="card partners-card d-flex align-items-center">
+              <img class="partners-card-img" src="./assets/partners/Evergreen.svg" />
+            </div>
+          </div>
+
+          <!-- indonesian export channel -->
+          <div class="col mt-4">
+            <div class="card partners-card d-flex align-items-center">
+              <img class="partners-card-img" src="./assets/partners/indonesian-export-channel-logo.png" />
+            </div>
+          </div>
+          
+          <!-- djp -->
+          <div class="col mt-4">
+            <div class="card partners-card d-flex align-items-center">
+              <img class="partners-card-img" src="./assets/partners/djp.png" />
+            </div>
+          </div>
+
+          <!-- DHL -->
+          <div class="col mt-4">
+            <div class="card partners-card d-flex align-items-center">
+              <img class="partners-card-img" src="./assets/partners/DHL.svg" />
+            </div>
+          </div>
+
+          <!-- kemlu -->
+          <div class="col mt-4">
+            <div class="card partners-card d-flex align-items-center">
+              <img class="partners-card-img" src="./assets/partners/kemlu.png" />
+            </div>
+          </div>
+
+          <!-- oss -->
+          <div class="col mt-4">
+            <div class="card partners-card d-flex align-items-center">
+              <img class="partners-card-img" src="./assets/partners/oss.svg" />
+            </div>
+          </div>
+          
+          <!-- kemendagri -->
+          <div class="col mt-4">
+            <div class="card partners-card d-flex align-items-center">
+              <img class="partners-card-img" src="./assets/partners/kemendagri.svg" />
+            </div>
+          </div>
+
+          <!-- pt widodo unggas -->
+          <div class="col mt-4">
+            <div class="card partners-card d-flex align-items-center">
+              <img class="partners-card-img" src="./assets/partners/pt-widodo-makmur-unggas-removebg-preview.png" />
+            </div>
           </div>
 
         </div>
@@ -968,7 +1154,7 @@
           </div>
 
           <!-- first director -->
-          <div class="card mb-3" style="max-width: 18rem;">
+          <div class="card mb-3 mx-3" style="max-width: 18rem;">
             <img src="./assets/team/first-director.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5>Helmy Fauzi</h5>
